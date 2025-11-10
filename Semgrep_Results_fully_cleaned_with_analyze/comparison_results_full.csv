@@ -1,0 +1,2741 @@
+filename,test_number,expected_vul,expected_cwe,semgrep_found_vul,semgrep_cwes,classification
+cleaned_BenchmarkTest00001.sarif,00001,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00002.sarif,00002,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00003.sarif,00003,True,328,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00004.sarif,00004,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest00005.sarif,00005,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00006.sarif,00006,True,78,True,78,TP
+cleaned_BenchmarkTest00007.sarif,00007,True,78,True,78,TP
+cleaned_BenchmarkTest00008.sarif,00008,True,89,True,89,TP
+cleaned_BenchmarkTest00009.sarif,00009,False,328,False,,TN
+cleaned_BenchmarkTest00010.sarif,00010,False,330,True,352,FP
+cleaned_BenchmarkTest00011.sarif,00011,True,22,True,22,TP
+cleaned_BenchmarkTest00012.sarif,00012,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest00013.sarif,00013,True,79,True,79,TP
+cleaned_BenchmarkTest00014.sarif,00014,True,79,True,79,TP
+cleaned_BenchmarkTest00015.sarif,00015,True,78,True,78,TP
+cleaned_BenchmarkTest00016.sarif,00016,False,614,True,352,FP
+cleaned_BenchmarkTest00017.sarif,00017,True,78,True,78,TP
+cleaned_BenchmarkTest00018.sarif,00018,True,89,True,89,TP
+cleaned_BenchmarkTest00019.sarif,00019,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00020.sarif,00020,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00021.sarif,00021,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest00022.sarif,00022,False,328,False,,TN
+cleaned_BenchmarkTest00023.sarif,00023,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00024.sarif,00024,True,89,True,89,TP
+cleaned_BenchmarkTest00025.sarif,00025,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00026.sarif,00026,True,89,True,89,TP
+cleaned_BenchmarkTest00027.sarif,00027,True,89,True,89,TP
+cleaned_BenchmarkTest00028.sarif,00028,True,22,True,22,TP
+cleaned_BenchmarkTest00029.sarif,00029,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00030.sarif,00030,True,79,True,79,TP
+cleaned_BenchmarkTest00031.sarif,00031,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00032.sarif,00032,True,89,True,89,TP
+cleaned_BenchmarkTest00033.sarif,00033,True,89,True,89,TP
+cleaned_BenchmarkTest00034.sarif,00034,True,89,True,89,TP
+cleaned_BenchmarkTest00035.sarif,00035,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00036.sarif,00036,True,79,True,79,TP
+cleaned_BenchmarkTest00037.sarif,00037,True,89,True,89,TP
+cleaned_BenchmarkTest00038.sarif,00038,True,89,True,89,TP
+cleaned_BenchmarkTest00039.sarif,00039,True,89,True,89,TP
+cleaned_BenchmarkTest00040.sarif,00040,True,22,True,22,TP
+cleaned_BenchmarkTest00041.sarif,00041,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00042.sarif,00042,False,330,True,352,FP
+cleaned_BenchmarkTest00043.sarif,00043,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00044.sarif,00044,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest00045.sarif,00045,True,22,True,22,TP
+cleaned_BenchmarkTest00046.sarif,00046,True,328,True,328,TP
+cleaned_BenchmarkTest00047.sarif,00047,True,79,True,79,TP
+cleaned_BenchmarkTest00048.sarif,00048,True,79,True,79,TP
+cleaned_BenchmarkTest00049.sarif,00049,True,79,True,79,TP
+cleaned_BenchmarkTest00050.sarif,00050,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00051.sarif,00051,False,78,True,78,FP
+cleaned_BenchmarkTest00052.sarif,00052,False,89,False,,TN
+cleaned_BenchmarkTest00053.sarif,00053,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00054.sarif,00054,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00055.sarif,00055,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00056.sarif,00056,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00057.sarif,00057,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00058.sarif,00058,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00059.sarif,00059,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00060.sarif,00060,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00061.sarif,00061,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00062.sarif,00062,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00063.sarif,00063,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest00064.sarif,00064,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest00065.sarif,00065,True,22,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00066.sarif,00066,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00067.sarif,00067,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00068.sarif,00068,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00069.sarif,00069,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00070.sarif,00070,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest00071.sarif,00071,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest00072.sarif,00072,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00073.sarif,00073,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest00074.sarif,00074,True,328,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00075.sarif,00075,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00076.sarif,00076,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00077.sarif,00077,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00078.sarif,00078,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00079.sarif,00079,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00080.sarif,00080,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00081.sarif,00081,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00082.sarif,00082,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00083.sarif,00083,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00084.sarif,00084,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00085.sarif,00085,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00086.sarif,00086,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00087.sarif,00087,True,614,True,"352, 614, 1004",TP
+cleaned_BenchmarkTest00088.sarif,00088,False,614,True,"352, 1004",FP
+cleaned_BenchmarkTest00089.sarif,00089,False,614,True,"352, 1004",FP
+cleaned_BenchmarkTest00090.sarif,00090,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00091.sarif,00091,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00092.sarif,00092,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00093.sarif,00093,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00094.sarif,00094,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00095.sarif,00095,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00096.sarif,00096,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00097.sarif,00097,False,501,True,"79, 352, 501, 1004",FP
+cleaned_BenchmarkTest00098.sarif,00098,True,501,True,"352, 501, 1004",TP
+cleaned_BenchmarkTest00099.sarif,00099,False,501,True,"352, 501, 1004",FP
+cleaned_BenchmarkTest00100.sarif,00100,True,89,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00101.sarif,00101,True,89,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00102.sarif,00102,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00103.sarif,00103,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00104.sarif,00104,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest00105.sarif,00105,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest00106.sarif,00106,True,89,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00107.sarif,00107,False,89,True,"352, 1004",FP
+cleaned_BenchmarkTest00108.sarif,00108,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00109.sarif,00109,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00110.sarif,00110,False,89,True,"352, 1004",FP
+cleaned_BenchmarkTest00111.sarif,00111,True,89,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00112.sarif,00112,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00113.sarif,00113,False,89,True,"352, 1004",FP
+cleaned_BenchmarkTest00114.sarif,00114,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest00115.sarif,00115,True,89,True,"352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00116.sarif,00116,False,643,True,"352, 643, 1004",FP
+cleaned_BenchmarkTest00117.sarif,00117,False,643,True,"79, 352, 643, 1004",FP
+cleaned_BenchmarkTest00118.sarif,00118,False,643,True,"79, 352, 643, 1004",FP
+cleaned_BenchmarkTest00119.sarif,00119,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00120.sarif,00120,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00121.sarif,00121,False,327,False,,TN
+cleaned_BenchmarkTest00122.sarif,00122,False,327,False,,TN
+cleaned_BenchmarkTest00123.sarif,00123,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00124.sarif,00124,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00125.sarif,00125,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00126.sarif,00126,False,327,False,,TN
+cleaned_BenchmarkTest00127.sarif,00127,False,327,False,,TN
+cleaned_BenchmarkTest00128.sarif,00128,False,327,False,,TN
+cleaned_BenchmarkTest00129.sarif,00129,False,327,False,,TN
+cleaned_BenchmarkTest00130.sarif,00130,False,327,False,,TN
+cleaned_BenchmarkTest00131.sarif,00131,False,22,True,22,FP
+cleaned_BenchmarkTest00132.sarif,00132,False,22,True,22,FP
+cleaned_BenchmarkTest00133.sarif,00133,True,22,True,22,TP
+cleaned_BenchmarkTest00134.sarif,00134,False,22,True,22,FP
+cleaned_BenchmarkTest00135.sarif,00135,False,22,True,22,FP
+cleaned_BenchmarkTest00136.sarif,00136,False,22,True,22,FP
+cleaned_BenchmarkTest00137.sarif,00137,False,22,False,,TN
+cleaned_BenchmarkTest00138.sarif,00138,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest00139.sarif,00139,False,90,False,,TN
+cleaned_BenchmarkTest00140.sarif,00140,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00141.sarif,00141,True,328,True,328,TP
+cleaned_BenchmarkTest00142.sarif,00142,False,328,False,,TN
+cleaned_BenchmarkTest00143.sarif,00143,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00144.sarif,00144,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00145.sarif,00145,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00146.sarif,00146,True,79,True,79,TP
+cleaned_BenchmarkTest00147.sarif,00147,False,79,False,,TN
+cleaned_BenchmarkTest00148.sarif,00148,True,79,True,79,TP
+cleaned_BenchmarkTest00149.sarif,00149,True,79,True,79,TP
+cleaned_BenchmarkTest00150.sarif,00150,True,79,True,79,TP
+cleaned_BenchmarkTest00151.sarif,00151,False,79,False,,TN
+cleaned_BenchmarkTest00152.sarif,00152,True,79,True,79,TP
+cleaned_BenchmarkTest00153.sarif,00153,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00154.sarif,00154,True,79,True,79,TP
+cleaned_BenchmarkTest00155.sarif,00155,True,79,True,79,TP
+cleaned_BenchmarkTest00156.sarif,00156,True,79,True,79,TP
+cleaned_BenchmarkTest00157.sarif,00157,True,79,True,79,TP
+cleaned_BenchmarkTest00158.sarif,00158,False,78,True,78,FP
+cleaned_BenchmarkTest00159.sarif,00159,True,78,True,78,TP
+cleaned_BenchmarkTest00160.sarif,00160,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00161.sarif,00161,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00162.sarif,00162,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00163.sarif,00163,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00164.sarif,00164,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00165.sarif,00165,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00166.sarif,00166,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00167.sarif,00167,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00168.sarif,00168,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00169.sarif,00169,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00170.sarif,00170,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00171.sarif,00171,False,78,True,78,FP
+cleaned_BenchmarkTest00172.sarif,00172,True,78,False,,FN_Missed
+cleaned_BenchmarkTest00173.sarif,00173,True,78,False,,FN_Missed
+cleaned_BenchmarkTest00174.sarif,00174,True,78,True,78,TP
+cleaned_BenchmarkTest00175.sarif,00175,False,78,False,,TN
+cleaned_BenchmarkTest00176.sarif,00176,True,78,True,78,TP
+cleaned_BenchmarkTest00177.sarif,00177,False,78,True,78,FP
+cleaned_BenchmarkTest00178.sarif,00178,False,330,True,352,FP
+cleaned_BenchmarkTest00179.sarif,00179,False,330,True,352,FP
+cleaned_BenchmarkTest00180.sarif,00180,False,330,True,352,FP
+cleaned_BenchmarkTest00181.sarif,00181,False,330,True,352,FP
+cleaned_BenchmarkTest00182.sarif,00182,False,330,True,352,FP
+cleaned_BenchmarkTest00183.sarif,00183,False,330,True,352,FP
+cleaned_BenchmarkTest00184.sarif,00184,False,330,True,352,FP
+cleaned_BenchmarkTest00185.sarif,00185,False,330,True,352,FP
+cleaned_BenchmarkTest00186.sarif,00186,False,330,True,352,FP
+cleaned_BenchmarkTest00187.sarif,00187,False,330,True,352,FP
+cleaned_BenchmarkTest00188.sarif,00188,False,330,True,352,FP
+cleaned_BenchmarkTest00189.sarif,00189,False,501,False,,TN
+cleaned_BenchmarkTest00190.sarif,00190,False,89,False,,TN
+cleaned_BenchmarkTest00191.sarif,00191,False,89,True,89,FP
+cleaned_BenchmarkTest00192.sarif,00192,True,89,True,89,TP
+cleaned_BenchmarkTest00193.sarif,00193,True,89,True,89,TP
+cleaned_BenchmarkTest00194.sarif,00194,True,89,True,89,TP
+cleaned_BenchmarkTest00195.sarif,00195,True,89,True,89,TP
+cleaned_BenchmarkTest00196.sarif,00196,True,89,True,89,TP
+cleaned_BenchmarkTest00197.sarif,00197,False,89,False,,TN
+cleaned_BenchmarkTest00198.sarif,00198,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00199.sarif,00199,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00200.sarif,00200,False,89,False,,TN
+cleaned_BenchmarkTest00201.sarif,00201,False,89,False,,TN
+cleaned_BenchmarkTest00202.sarif,00202,False,89,False,,TN
+cleaned_BenchmarkTest00203.sarif,00203,True,89,True,89,TP
+cleaned_BenchmarkTest00204.sarif,00204,True,89,True,89,TP
+cleaned_BenchmarkTest00205.sarif,00205,False,89,False,,TN
+cleaned_BenchmarkTest00206.sarif,00206,False,89,False,,TN
+cleaned_BenchmarkTest00207.sarif,00207,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest00208.sarif,00208,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00209.sarif,00209,False,327,False,,TN
+cleaned_BenchmarkTest00210.sarif,00210,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00211.sarif,00211,False,327,False,,TN
+cleaned_BenchmarkTest00212.sarif,00212,False,327,False,,TN
+cleaned_BenchmarkTest00213.sarif,00213,False,327,False,,TN
+cleaned_BenchmarkTest00214.sarif,00214,False,327,False,,TN
+cleaned_BenchmarkTest00215.sarif,00215,True,22,True,22,TP
+cleaned_BenchmarkTest00216.sarif,00216,True,22,True,22,TP
+cleaned_BenchmarkTest00217.sarif,00217,False,22,False,,TN
+cleaned_BenchmarkTest00218.sarif,00218,True,22,True,22,TP
+cleaned_BenchmarkTest00219.sarif,00219,True,22,True,22,TP
+cleaned_BenchmarkTest00220.sarif,00220,False,22,False,,TN
+cleaned_BenchmarkTest00221.sarif,00221,False,22,True,22,FP
+cleaned_BenchmarkTest00222.sarif,00222,True,22,True,22,TP
+cleaned_BenchmarkTest00223.sarif,00223,True,328,True,328,TP
+cleaned_BenchmarkTest00224.sarif,00224,False,328,False,,TN
+cleaned_BenchmarkTest00225.sarif,00225,False,328,False,,TN
+cleaned_BenchmarkTest00226.sarif,00226,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00227.sarif,00227,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00228.sarif,00228,False,328,False,,TN
+cleaned_BenchmarkTest00229.sarif,00229,False,328,False,,TN
+cleaned_BenchmarkTest00230.sarif,00230,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00231.sarif,00231,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00232.sarif,00232,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00233.sarif,00233,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00234.sarif,00234,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00235.sarif,00235,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00236.sarif,00236,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00237.sarif,00237,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00238.sarif,00238,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00239.sarif,00239,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00240.sarif,00240,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00241.sarif,00241,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00242.sarif,00242,False,614,True,352,FP
+cleaned_BenchmarkTest00243.sarif,00243,False,330,True,352,FP
+cleaned_BenchmarkTest00244.sarif,00244,False,330,True,352,FP
+cleaned_BenchmarkTest00245.sarif,00245,False,330,True,352,FP
+cleaned_BenchmarkTest00246.sarif,00246,False,330,True,352,FP
+cleaned_BenchmarkTest00247.sarif,00247,False,330,True,352,FP
+cleaned_BenchmarkTest00248.sarif,00248,False,330,True,352,FP
+cleaned_BenchmarkTest00249.sarif,00249,False,330,True,352,FP
+cleaned_BenchmarkTest00250.sarif,00250,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest00251.sarif,00251,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00252.sarif,00252,False,501,True,501,FP
+cleaned_BenchmarkTest00253.sarif,00253,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest00254.sarif,00254,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00255.sarif,00255,False,327,False,,TN
+cleaned_BenchmarkTest00256.sarif,00256,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00257.sarif,00257,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00258.sarif,00258,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00259.sarif,00259,False,327,False,,TN
+cleaned_BenchmarkTest00260.sarif,00260,False,327,False,,TN
+cleaned_BenchmarkTest00261.sarif,00261,False,22,False,,TN
+cleaned_BenchmarkTest00262.sarif,00262,True,22,True,22,TP
+cleaned_BenchmarkTest00263.sarif,00263,False,22,True,22,FP
+cleaned_BenchmarkTest00264.sarif,00264,True,22,True,22,TP
+cleaned_BenchmarkTest00265.sarif,00265,False,22,True,22,FP
+cleaned_BenchmarkTest00266.sarif,00266,True,328,True,328,TP
+cleaned_BenchmarkTest00267.sarif,00267,True,328,True,328,TP
+cleaned_BenchmarkTest00268.sarif,00268,True,328,True,328,TP
+cleaned_BenchmarkTest00269.sarif,00269,True,328,True,328,TP
+cleaned_BenchmarkTest00270.sarif,00270,False,328,False,,TN
+cleaned_BenchmarkTest00271.sarif,00271,False,328,False,,TN
+cleaned_BenchmarkTest00272.sarif,00272,True,328,True,328,TP
+cleaned_BenchmarkTest00273.sarif,00273,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00274.sarif,00274,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00275.sarif,00275,False,79,False,,TN
+cleaned_BenchmarkTest00276.sarif,00276,True,79,True,79,TP
+cleaned_BenchmarkTest00277.sarif,00277,False,79,False,,TN
+cleaned_BenchmarkTest00278.sarif,00278,False,79,False,,TN
+cleaned_BenchmarkTest00279.sarif,00279,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00280.sarif,00280,True,79,True,79,TP
+cleaned_BenchmarkTest00281.sarif,00281,False,79,True,79,FP
+cleaned_BenchmarkTest00282.sarif,00282,False,79,False,,TN
+cleaned_BenchmarkTest00283.sarif,00283,False,79,False,,TN
+cleaned_BenchmarkTest00284.sarif,00284,True,79,True,79,TP
+cleaned_BenchmarkTest00285.sarif,00285,False,79,False,,TN
+cleaned_BenchmarkTest00286.sarif,00286,False,79,True,79,FP
+cleaned_BenchmarkTest00287.sarif,00287,True,79,True,79,TP
+cleaned_BenchmarkTest00288.sarif,00288,False,79,True,79,FP
+cleaned_BenchmarkTest00289.sarif,00289,False,79,True,79,FP
+cleaned_BenchmarkTest00290.sarif,00290,True,79,True,79,TP
+cleaned_BenchmarkTest00291.sarif,00291,True,79,True,79,TP
+cleaned_BenchmarkTest00292.sarif,00292,True,79,True,79,TP
+cleaned_BenchmarkTest00293.sarif,00293,True,78,True,78,TP
+cleaned_BenchmarkTest00294.sarif,00294,True,78,True,78,TP
+cleaned_BenchmarkTest00295.sarif,00295,True,78,True,78,TP
+cleaned_BenchmarkTest00296.sarif,00296,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00297.sarif,00297,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00298.sarif,00298,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00299.sarif,00299,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00300.sarif,00300,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00301.sarif,00301,True,79,True,79,TP
+cleaned_BenchmarkTest00302.sarif,00302,True,78,True,78,TP
+cleaned_BenchmarkTest00303.sarif,00303,True,78,True,78,TP
+cleaned_BenchmarkTest00304.sarif,00304,True,78,True,78,TP
+cleaned_BenchmarkTest00305.sarif,00305,False,78,False,,TN
+cleaned_BenchmarkTest00306.sarif,00306,True,78,True,78,TP
+cleaned_BenchmarkTest00307.sarif,00307,False,78,True,78,FP
+cleaned_BenchmarkTest00308.sarif,00308,False,78,True,78,FP
+cleaned_BenchmarkTest00309.sarif,00309,False,78,False,,TN
+cleaned_BenchmarkTest00310.sarif,00310,False,78,True,78,FP
+cleaned_BenchmarkTest00311.sarif,00311,True,78,True,78,TP
+cleaned_BenchmarkTest00312.sarif,00312,False,330,True,352,FP
+cleaned_BenchmarkTest00313.sarif,00313,False,330,True,352,FP
+cleaned_BenchmarkTest00314.sarif,00314,False,330,True,352,FP
+cleaned_BenchmarkTest00315.sarif,00315,False,330,True,352,FP
+cleaned_BenchmarkTest00316.sarif,00316,False,330,True,352,FP
+cleaned_BenchmarkTest00317.sarif,00317,False,330,True,352,FP
+cleaned_BenchmarkTest00318.sarif,00318,False,330,True,352,FP
+cleaned_BenchmarkTest00319.sarif,00319,False,330,True,352,FP
+cleaned_BenchmarkTest00320.sarif,00320,False,330,True,352,FP
+cleaned_BenchmarkTest00321.sarif,00321,True,501,True,501,TP
+cleaned_BenchmarkTest00322.sarif,00322,False,501,True,501,FP
+cleaned_BenchmarkTest00323.sarif,00323,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest00324.sarif,00324,True,501,True,501,TP
+cleaned_BenchmarkTest00325.sarif,00325,True,501,True,501,TP
+cleaned_BenchmarkTest00326.sarif,00326,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00327.sarif,00327,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00328.sarif,00328,True,89,True,89,TP
+cleaned_BenchmarkTest00329.sarif,00329,False,89,True,89,FP
+cleaned_BenchmarkTest00330.sarif,00330,False,89,False,,TN
+cleaned_BenchmarkTest00331.sarif,00331,False,89,False,,TN
+cleaned_BenchmarkTest00332.sarif,00332,False,89,False,,TN
+cleaned_BenchmarkTest00333.sarif,00333,False,89,True,89,FP
+cleaned_BenchmarkTest00334.sarif,00334,False,89,False,,TN
+cleaned_BenchmarkTest00335.sarif,00335,True,89,True,89,TP
+cleaned_BenchmarkTest00336.sarif,00336,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest00337.sarif,00337,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00338.sarif,00338,False,89,True,89,FP
+cleaned_BenchmarkTest00339.sarif,00339,True,89,True,89,TP
+cleaned_BenchmarkTest00340.sarif,00340,False,89,True,89,FP
+cleaned_BenchmarkTest00341.sarif,00341,True,89,True,89,TP
+cleaned_BenchmarkTest00342.sarif,00342,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00343.sarif,00343,False,89,True,89,FP
+cleaned_BenchmarkTest00344.sarif,00344,False,89,True,89,FP
+cleaned_BenchmarkTest00345.sarif,00345,False,327,False,,TN
+cleaned_BenchmarkTest00346.sarif,00346,True,328,True,328,TP
+cleaned_BenchmarkTest00347.sarif,00347,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00348.sarif,00348,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00349.sarif,00349,False,330,True,352,FP
+cleaned_BenchmarkTest00350.sarif,00350,False,327,False,,TN
+cleaned_BenchmarkTest00351.sarif,00351,False,327,False,,TN
+cleaned_BenchmarkTest00352.sarif,00352,False,327,False,,TN
+cleaned_BenchmarkTest00353.sarif,00353,False,327,False,,TN
+cleaned_BenchmarkTest00354.sarif,00354,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00355.sarif,00355,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00356.sarif,00356,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00357.sarif,00357,False,327,False,,TN
+cleaned_BenchmarkTest00358.sarif,00358,False,327,False,,TN
+cleaned_BenchmarkTest00359.sarif,00359,True,22,True,22,TP
+cleaned_BenchmarkTest00360.sarif,00360,True,22,True,22,TP
+cleaned_BenchmarkTest00361.sarif,00361,False,22,True,22,FP
+cleaned_BenchmarkTest00362.sarif,00362,True,22,True,22,TP
+cleaned_BenchmarkTest00363.sarif,00363,True,22,True,22,TP
+cleaned_BenchmarkTest00364.sarif,00364,False,22,True,22,FP
+cleaned_BenchmarkTest00365.sarif,00365,False,22,False,,TN
+cleaned_BenchmarkTest00366.sarif,00366,False,22,False,,TN
+cleaned_BenchmarkTest00367.sarif,00367,False,90,False,,TN
+cleaned_BenchmarkTest00368.sarif,00368,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00369.sarif,00369,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00370.sarif,00370,False,328,False,,TN
+cleaned_BenchmarkTest00371.sarif,00371,True,328,True,328,TP
+cleaned_BenchmarkTest00372.sarif,00372,True,328,True,328,TP
+cleaned_BenchmarkTest00373.sarif,00373,False,328,False,,TN
+cleaned_BenchmarkTest00374.sarif,00374,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00375.sarif,00375,True,79,True,79,TP
+cleaned_BenchmarkTest00376.sarif,00376,True,79,True,79,TP
+cleaned_BenchmarkTest00377.sarif,00377,False,79,False,,TN
+cleaned_BenchmarkTest00378.sarif,00378,True,79,True,79,TP
+cleaned_BenchmarkTest00379.sarif,00379,False,79,False,,TN
+cleaned_BenchmarkTest00380.sarif,00380,True,79,True,79,TP
+cleaned_BenchmarkTest00381.sarif,00381,False,79,False,,TN
+cleaned_BenchmarkTest00382.sarif,00382,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00383.sarif,00383,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00384.sarif,00384,True,79,True,79,TP
+cleaned_BenchmarkTest00385.sarif,00385,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00386.sarif,00386,False,79,False,,TN
+cleaned_BenchmarkTest00387.sarif,00387,True,79,True,79,TP
+cleaned_BenchmarkTest00388.sarif,00388,True,79,True,79,TP
+cleaned_BenchmarkTest00389.sarif,00389,False,79,False,,TN
+cleaned_BenchmarkTest00390.sarif,00390,True,79,True,79,TP
+cleaned_BenchmarkTest00391.sarif,00391,False,79,False,,TN
+cleaned_BenchmarkTest00392.sarif,00392,True,79,True,79,TP
+cleaned_BenchmarkTest00393.sarif,00393,False,79,True,79,FP
+cleaned_BenchmarkTest00394.sarif,00394,False,79,True,79,FP
+cleaned_BenchmarkTest00395.sarif,00395,True,79,True,79,TP
+cleaned_BenchmarkTest00396.sarif,00396,False,78,True,78,FP
+cleaned_BenchmarkTest00397.sarif,00397,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00398.sarif,00398,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00399.sarif,00399,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00400.sarif,00400,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00401.sarif,00401,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00402.sarif,00402,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00403.sarif,00403,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00404.sarif,00404,False,614,True,352,FP
+cleaned_BenchmarkTest00405.sarif,00405,False,614,True,352,FP
+cleaned_BenchmarkTest00406.sarif,00406,False,78,True,78,FP
+cleaned_BenchmarkTest00407.sarif,00407,True,78,True,78,TP
+cleaned_BenchmarkTest00408.sarif,00408,False,78,True,78,FP
+cleaned_BenchmarkTest00409.sarif,00409,True,78,True,78,TP
+cleaned_BenchmarkTest00410.sarif,00410,False,78,False,,TN
+cleaned_BenchmarkTest00411.sarif,00411,False,78,False,,TN
+cleaned_BenchmarkTest00412.sarif,00412,False,78,False,,TN
+cleaned_BenchmarkTest00413.sarif,00413,False,330,True,352,FP
+cleaned_BenchmarkTest00414.sarif,00414,False,330,True,352,FP
+cleaned_BenchmarkTest00415.sarif,00415,False,330,True,352,FP
+cleaned_BenchmarkTest00416.sarif,00416,False,330,True,352,FP
+cleaned_BenchmarkTest00417.sarif,00417,False,330,True,352,FP
+cleaned_BenchmarkTest00418.sarif,00418,False,330,True,352,FP
+cleaned_BenchmarkTest00419.sarif,00419,False,330,True,352,FP
+cleaned_BenchmarkTest00420.sarif,00420,False,330,True,352,FP
+cleaned_BenchmarkTest00421.sarif,00421,False,330,True,352,FP
+cleaned_BenchmarkTest00422.sarif,00422,False,330,True,352,FP
+cleaned_BenchmarkTest00423.sarif,00423,False,330,True,352,FP
+cleaned_BenchmarkTest00424.sarif,00424,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00425.sarif,00425,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00426.sarif,00426,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00427.sarif,00427,True,501,True,501,TP
+cleaned_BenchmarkTest00428.sarif,00428,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00429.sarif,00429,True,89,True,89,TP
+cleaned_BenchmarkTest00430.sarif,00430,False,89,True,89,FP
+cleaned_BenchmarkTest00431.sarif,00431,True,89,True,89,TP
+cleaned_BenchmarkTest00432.sarif,00432,False,89,False,,TN
+cleaned_BenchmarkTest00433.sarif,00433,True,89,True,89,TP
+cleaned_BenchmarkTest00434.sarif,00434,True,89,True,89,TP
+cleaned_BenchmarkTest00435.sarif,00435,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00436.sarif,00436,False,89,True,89,FP
+cleaned_BenchmarkTest00437.sarif,00437,False,89,True,89,FP
+cleaned_BenchmarkTest00438.sarif,00438,True,89,True,89,TP
+cleaned_BenchmarkTest00439.sarif,00439,True,89,True,89,TP
+cleaned_BenchmarkTest00440.sarif,00440,False,89,False,,TN
+cleaned_BenchmarkTest00441.sarif,00441,True,89,True,89,TP
+cleaned_BenchmarkTest00442.sarif,00442,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest00443.sarif,00443,False,327,False,,TN
+cleaned_BenchmarkTest00444.sarif,00444,False,327,False,,TN
+cleaned_BenchmarkTest00445.sarif,00445,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00446.sarif,00446,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00447.sarif,00447,False,327,False,,TN
+cleaned_BenchmarkTest00448.sarif,00448,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00449.sarif,00449,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00450.sarif,00450,False,327,False,,TN
+cleaned_BenchmarkTest00451.sarif,00451,False,327,False,,TN
+cleaned_BenchmarkTest00452.sarif,00452,True,22,True,22,TP
+cleaned_BenchmarkTest00453.sarif,00453,True,22,True,22,TP
+cleaned_BenchmarkTest00454.sarif,00454,False,22,True,22,FP
+cleaned_BenchmarkTest00455.sarif,00455,True,22,True,22,TP
+cleaned_BenchmarkTest00456.sarif,00456,True,22,True,22,TP
+cleaned_BenchmarkTest00457.sarif,00457,True,22,True,22,TP
+cleaned_BenchmarkTest00458.sarif,00458,False,22,True,22,FP
+cleaned_BenchmarkTest00459.sarif,00459,True,22,True,22,TP
+cleaned_BenchmarkTest00460.sarif,00460,False,22,False,,TN
+cleaned_BenchmarkTest00461.sarif,00461,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00462.sarif,00462,True,328,True,328,TP
+cleaned_BenchmarkTest00463.sarif,00463,False,328,False,,TN
+cleaned_BenchmarkTest00464.sarif,00464,True,328,True,328,TP
+cleaned_BenchmarkTest00465.sarif,00465,True,328,True,328,TP
+cleaned_BenchmarkTest00466.sarif,00466,False,328,False,,TN
+cleaned_BenchmarkTest00467.sarif,00467,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00468.sarif,00468,False,79,False,,TN
+cleaned_BenchmarkTest00469.sarif,00469,False,79,True,79,FP
+cleaned_BenchmarkTest00470.sarif,00470,False,79,False,,TN
+cleaned_BenchmarkTest00471.sarif,00471,False,79,False,,TN
+cleaned_BenchmarkTest00472.sarif,00472,True,79,True,79,TP
+cleaned_BenchmarkTest00473.sarif,00473,True,79,True,79,TP
+cleaned_BenchmarkTest00474.sarif,00474,False,79,False,,TN
+cleaned_BenchmarkTest00475.sarif,00475,True,79,True,79,TP
+cleaned_BenchmarkTest00476.sarif,00476,False,79,True,79,FP
+cleaned_BenchmarkTest00477.sarif,00477,True,79,True,79,TP
+cleaned_BenchmarkTest00478.sarif,00478,True,79,True,79,TP
+cleaned_BenchmarkTest00479.sarif,00479,False,79,True,79,FP
+cleaned_BenchmarkTest00480.sarif,00480,True,78,True,78,TP
+cleaned_BenchmarkTest00481.sarif,00481,False,78,True,78,FP
+cleaned_BenchmarkTest00482.sarif,00482,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00483.sarif,00483,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00484.sarif,00484,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00485.sarif,00485,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00486.sarif,00486,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00487.sarif,00487,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00488.sarif,00488,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00489.sarif,00489,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00490.sarif,00490,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00491.sarif,00491,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00492.sarif,00492,True,79,True,79,TP
+cleaned_BenchmarkTest00493.sarif,00493,False,79,True,79,FP
+cleaned_BenchmarkTest00494.sarif,00494,False,78,True,78,FP
+cleaned_BenchmarkTest00495.sarif,00495,True,78,False,,FN_Missed
+cleaned_BenchmarkTest00496.sarif,00496,True,78,True,78,TP
+cleaned_BenchmarkTest00497.sarif,00497,True,78,True,78,TP
+cleaned_BenchmarkTest00498.sarif,00498,True,78,True,78,TP
+cleaned_BenchmarkTest00499.sarif,00499,True,78,True,78,TP
+cleaned_BenchmarkTest00500.sarif,00500,True,78,True,78,TP
+cleaned_BenchmarkTest00501.sarif,00501,False,330,True,352,FP
+cleaned_BenchmarkTest00502.sarif,00502,False,330,True,352,FP
+cleaned_BenchmarkTest00503.sarif,00503,False,330,True,352,FP
+cleaned_BenchmarkTest00504.sarif,00504,False,330,True,352,FP
+cleaned_BenchmarkTest00505.sarif,00505,False,330,True,352,FP
+cleaned_BenchmarkTest00506.sarif,00506,False,330,True,352,FP
+cleaned_BenchmarkTest00507.sarif,00507,False,330,True,352,FP
+cleaned_BenchmarkTest00508.sarif,00508,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00509.sarif,00509,False,89,False,,TN
+cleaned_BenchmarkTest00510.sarif,00510,True,89,True,89,TP
+cleaned_BenchmarkTest00511.sarif,00511,False,89,False,,TN
+cleaned_BenchmarkTest00512.sarif,00512,True,89,True,89,TP
+cleaned_BenchmarkTest00513.sarif,00513,False,89,False,,TN
+cleaned_BenchmarkTest00514.sarif,00514,False,89,True,89,FP
+cleaned_BenchmarkTest00515.sarif,00515,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00516.sarif,00516,True,89,True,89,TP
+cleaned_BenchmarkTest00517.sarif,00517,False,89,True,89,FP
+cleaned_BenchmarkTest00518.sarif,00518,True,89,True,89,TP
+cleaned_BenchmarkTest00519.sarif,00519,False,89,False,,TN
+cleaned_BenchmarkTest00520.sarif,00520,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest00521.sarif,00521,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00522.sarif,00522,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00523.sarif,00523,False,327,False,,TN
+cleaned_BenchmarkTest00524.sarif,00524,False,327,False,,TN
+cleaned_BenchmarkTest00525.sarif,00525,True,22,True,22,TP
+cleaned_BenchmarkTest00526.sarif,00526,True,22,True,22,TP
+cleaned_BenchmarkTest00527.sarif,00527,True,22,True,22,TP
+cleaned_BenchmarkTest00528.sarif,00528,True,22,True,22,TP
+cleaned_BenchmarkTest00529.sarif,00529,True,22,True,22,TP
+cleaned_BenchmarkTest00530.sarif,00530,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest00531.sarif,00531,True,328,True,328,TP
+cleaned_BenchmarkTest00532.sarif,00532,True,328,True,328,TP
+cleaned_BenchmarkTest00533.sarif,00533,True,328,True,328,TP
+cleaned_BenchmarkTest00534.sarif,00534,True,328,True,328,TP
+cleaned_BenchmarkTest00535.sarif,00535,False,328,False,,TN
+cleaned_BenchmarkTest00536.sarif,00536,True,328,True,328,TP
+cleaned_BenchmarkTest00537.sarif,00537,True,328,True,328,TP
+cleaned_BenchmarkTest00538.sarif,00538,False,328,False,,TN
+cleaned_BenchmarkTest00539.sarif,00539,False,328,False,,TN
+cleaned_BenchmarkTest00540.sarif,00540,False,328,False,,TN
+cleaned_BenchmarkTest00541.sarif,00541,True,79,True,79,TP
+cleaned_BenchmarkTest00542.sarif,00542,True,79,True,79,TP
+cleaned_BenchmarkTest00543.sarif,00543,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00544.sarif,00544,False,79,False,,TN
+cleaned_BenchmarkTest00545.sarif,00545,False,79,False,,TN
+cleaned_BenchmarkTest00546.sarif,00546,False,79,False,,TN
+cleaned_BenchmarkTest00547.sarif,00547,True,79,True,79,TP
+cleaned_BenchmarkTest00548.sarif,00548,False,79,False,,TN
+cleaned_BenchmarkTest00549.sarif,00549,True,79,True,79,TP
+cleaned_BenchmarkTest00550.sarif,00550,False,79,False,,TN
+cleaned_BenchmarkTest00551.sarif,00551,True,79,True,79,TP
+cleaned_BenchmarkTest00552.sarif,00552,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00553.sarif,00553,False,79,True,79,FP
+cleaned_BenchmarkTest00554.sarif,00554,True,79,True,79,TP
+cleaned_BenchmarkTest00555.sarif,00555,True,79,True,79,TP
+cleaned_BenchmarkTest00556.sarif,00556,False,79,True,79,FP
+cleaned_BenchmarkTest00557.sarif,00557,True,79,True,79,TP
+cleaned_BenchmarkTest00558.sarif,00558,False,78,True,78,FP
+cleaned_BenchmarkTest00559.sarif,00559,False,78,False,,TN
+cleaned_BenchmarkTest00560.sarif,00560,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00561.sarif,00561,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00562.sarif,00562,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00563.sarif,00563,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00564.sarif,00564,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00565.sarif,00565,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00566.sarif,00566,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00567.sarif,00567,True,78,True,78,TP
+cleaned_BenchmarkTest00568.sarif,00568,True,78,True,78,TP
+cleaned_BenchmarkTest00569.sarif,00569,False,78,False,,TN
+cleaned_BenchmarkTest00570.sarif,00570,False,78,False,,TN
+cleaned_BenchmarkTest00571.sarif,00571,False,78,True,78,FP
+cleaned_BenchmarkTest00572.sarif,00572,False,78,True,78,FP
+cleaned_BenchmarkTest00573.sarif,00573,True,78,True,78,TP
+cleaned_BenchmarkTest00574.sarif,00574,True,78,True,78,TP
+cleaned_BenchmarkTest00575.sarif,00575,True,78,True,78,TP
+cleaned_BenchmarkTest00576.sarif,00576,True,78,True,78,TP
+cleaned_BenchmarkTest00577.sarif,00577,False,330,True,352,FP
+cleaned_BenchmarkTest00578.sarif,00578,False,330,True,352,FP
+cleaned_BenchmarkTest00579.sarif,00579,False,330,True,352,FP
+cleaned_BenchmarkTest00580.sarif,00580,False,330,True,352,FP
+cleaned_BenchmarkTest00581.sarif,00581,False,330,True,352,FP
+cleaned_BenchmarkTest00582.sarif,00582,False,330,True,352,FP
+cleaned_BenchmarkTest00583.sarif,00583,False,330,True,352,FP
+cleaned_BenchmarkTest00584.sarif,00584,False,330,True,352,FP
+cleaned_BenchmarkTest00585.sarif,00585,False,330,True,352,FP
+cleaned_BenchmarkTest00586.sarif,00586,False,501,True,501,FP
+cleaned_BenchmarkTest00587.sarif,00587,True,501,True,501,TP
+cleaned_BenchmarkTest00588.sarif,00588,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00589.sarif,00589,False,89,False,,TN
+cleaned_BenchmarkTest00590.sarif,00590,True,89,True,89,TP
+cleaned_BenchmarkTest00591.sarif,00591,True,89,True,89,TP
+cleaned_BenchmarkTest00592.sarif,00592,False,89,False,,TN
+cleaned_BenchmarkTest00593.sarif,00593,True,89,True,89,TP
+cleaned_BenchmarkTest00594.sarif,00594,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00595.sarif,00595,True,89,True,89,TP
+cleaned_BenchmarkTest00596.sarif,00596,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00597.sarif,00597,True,89,True,89,TP
+cleaned_BenchmarkTest00598.sarif,00598,True,89,True,89,TP
+cleaned_BenchmarkTest00599.sarif,00599,False,89,False,,TN
+cleaned_BenchmarkTest00600.sarif,00600,True,89,True,89,TP
+cleaned_BenchmarkTest00601.sarif,00601,False,89,True,89,FP
+cleaned_BenchmarkTest00602.sarif,00602,False,89,False,,TN
+cleaned_BenchmarkTest00603.sarif,00603,True,89,True,89,TP
+cleaned_BenchmarkTest00604.sarif,00604,True,89,True,89,TP
+cleaned_BenchmarkTest00605.sarif,00605,False,89,True,89,FP
+cleaned_BenchmarkTest00606.sarif,00606,True,89,True,89,TP
+cleaned_BenchmarkTest00607.sarif,00607,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest00608.sarif,00608,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00609.sarif,00609,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00610.sarif,00610,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00611.sarif,00611,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00612.sarif,00612,False,327,False,,TN
+cleaned_BenchmarkTest00613.sarif,00613,False,327,False,,TN
+cleaned_BenchmarkTest00614.sarif,00614,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00615.sarif,00615,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00616.sarif,00616,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00617.sarif,00617,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00618.sarif,00618,False,327,False,,TN
+cleaned_BenchmarkTest00619.sarif,00619,True,22,False,,FN_Missed
+cleaned_BenchmarkTest00620.sarif,00620,False,22,False,,TN
+cleaned_BenchmarkTest00621.sarif,00621,False,22,False,,TN
+cleaned_BenchmarkTest00622.sarif,00622,False,22,True,22,FP
+cleaned_BenchmarkTest00623.sarif,00623,True,22,True,22,TP
+cleaned_BenchmarkTest00624.sarif,00624,True,22,True,22,TP
+cleaned_BenchmarkTest00625.sarif,00625,False,22,True,22,FP
+cleaned_BenchmarkTest00626.sarif,00626,False,22,False,,TN
+cleaned_BenchmarkTest00627.sarif,00627,True,22,True,22,TP
+cleaned_BenchmarkTest00628.sarif,00628,False,22,False,,TN
+cleaned_BenchmarkTest00629.sarif,00629,True,22,False,,FN_Missed
+cleaned_BenchmarkTest00630.sarif,00630,True,90,True,90,TP
+cleaned_BenchmarkTest00631.sarif,00631,True,328,True,328,TP
+cleaned_BenchmarkTest00632.sarif,00632,False,328,False,,TN
+cleaned_BenchmarkTest00633.sarif,00633,False,328,False,,TN
+cleaned_BenchmarkTest00634.sarif,00634,True,328,True,328,TP
+cleaned_BenchmarkTest00635.sarif,00635,True,328,True,328,TP
+cleaned_BenchmarkTest00636.sarif,00636,True,328,True,328,TP
+cleaned_BenchmarkTest00637.sarif,00637,True,328,True,328,TP
+cleaned_BenchmarkTest00638.sarif,00638,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00639.sarif,00639,False,328,False,,TN
+cleaned_BenchmarkTest00640.sarif,00640,False,328,False,,TN
+cleaned_BenchmarkTest00641.sarif,00641,False,328,False,,TN
+cleaned_BenchmarkTest00642.sarif,00642,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00643.sarif,00643,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00644.sarif,00644,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00645.sarif,00645,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00646.sarif,00646,False,79,False,,TN
+cleaned_BenchmarkTest00647.sarif,00647,False,79,False,,TN
+cleaned_BenchmarkTest00648.sarif,00648,False,79,False,,TN
+cleaned_BenchmarkTest00649.sarif,00649,False,79,False,,TN
+cleaned_BenchmarkTest00650.sarif,00650,False,79,False,,TN
+cleaned_BenchmarkTest00651.sarif,00651,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00652.sarif,00652,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00653.sarif,00653,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00654.sarif,00654,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00655.sarif,00655,False,614,True,352,FP
+cleaned_BenchmarkTest00656.sarif,00656,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00657.sarif,00657,False,78,False,,TN
+cleaned_BenchmarkTest00658.sarif,00658,False,78,True,78,FP
+cleaned_BenchmarkTest00659.sarif,00659,False,78,True,78,FP
+cleaned_BenchmarkTest00660.sarif,00660,False,330,True,352,FP
+cleaned_BenchmarkTest00661.sarif,00661,False,330,True,352,FP
+cleaned_BenchmarkTest00662.sarif,00662,False,330,True,352,FP
+cleaned_BenchmarkTest00663.sarif,00663,False,330,True,352,FP
+cleaned_BenchmarkTest00664.sarif,00664,False,330,True,352,FP
+cleaned_BenchmarkTest00665.sarif,00665,False,330,True,352,FP
+cleaned_BenchmarkTest00666.sarif,00666,False,330,True,352,FP
+cleaned_BenchmarkTest00667.sarif,00667,False,330,True,352,FP
+cleaned_BenchmarkTest00668.sarif,00668,True,501,False,,FN_Missed
+cleaned_BenchmarkTest00669.sarif,00669,False,501,False,,TN
+cleaned_BenchmarkTest00670.sarif,00670,True,501,False,,FN_Missed
+cleaned_BenchmarkTest00671.sarif,00671,True,501,False,,FN_Missed
+cleaned_BenchmarkTest00672.sarif,00672,False,89,False,,TN
+cleaned_BenchmarkTest00673.sarif,00673,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00674.sarif,00674,False,89,False,,TN
+cleaned_BenchmarkTest00675.sarif,00675,False,89,False,,TN
+cleaned_BenchmarkTest00676.sarif,00676,False,89,False,,TN
+cleaned_BenchmarkTest00677.sarif,00677,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00678.sarif,00678,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00679.sarif,00679,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00680.sarif,00680,False,89,False,,TN
+cleaned_BenchmarkTest00681.sarif,00681,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00682.sarif,00682,False,89,False,,TN
+cleaned_BenchmarkTest00683.sarif,00683,False,643,False,,TN
+cleaned_BenchmarkTest00684.sarif,00684,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00685.sarif,00685,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00686.sarif,00686,False,327,False,,TN
+cleaned_BenchmarkTest00687.sarif,00687,False,327,False,,TN
+cleaned_BenchmarkTest00688.sarif,00688,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00689.sarif,00689,False,327,False,,TN
+cleaned_BenchmarkTest00690.sarif,00690,False,327,False,,TN
+cleaned_BenchmarkTest00691.sarif,00691,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00692.sarif,00692,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00693.sarif,00693,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00694.sarif,00694,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest00695.sarif,00695,True,90,True,90,TP
+cleaned_BenchmarkTest00696.sarif,00696,True,22,True,22,TP
+cleaned_BenchmarkTest00697.sarif,00697,True,22,True,22,TP
+cleaned_BenchmarkTest00698.sarif,00698,True,22,True,22,TP
+cleaned_BenchmarkTest00699.sarif,00699,False,22,True,22,FP
+cleaned_BenchmarkTest00700.sarif,00700,True,22,True,22,TP
+cleaned_BenchmarkTest00701.sarif,00701,False,90,False,,TN
+cleaned_BenchmarkTest00702.sarif,00702,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00703.sarif,00703,True,328,True,328,TP
+cleaned_BenchmarkTest00704.sarif,00704,True,328,True,328,TP
+cleaned_BenchmarkTest00705.sarif,00705,True,328,True,328,TP
+cleaned_BenchmarkTest00706.sarif,00706,False,328,False,,TN
+cleaned_BenchmarkTest00707.sarif,00707,False,328,False,,TN
+cleaned_BenchmarkTest00708.sarif,00708,True,328,True,328,TP
+cleaned_BenchmarkTest00709.sarif,00709,False,328,False,,TN
+cleaned_BenchmarkTest00710.sarif,00710,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00711.sarif,00711,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00712.sarif,00712,False,79,True,79,FP
+cleaned_BenchmarkTest00713.sarif,00713,False,79,False,,TN
+cleaned_BenchmarkTest00714.sarif,00714,False,79,False,,TN
+cleaned_BenchmarkTest00715.sarif,00715,True,79,True,79,TP
+cleaned_BenchmarkTest00716.sarif,00716,False,79,False,,TN
+cleaned_BenchmarkTest00717.sarif,00717,False,79,False,,TN
+cleaned_BenchmarkTest00718.sarif,00718,False,79,False,,TN
+cleaned_BenchmarkTest00719.sarif,00719,True,79,True,79,TP
+cleaned_BenchmarkTest00720.sarif,00720,True,79,True,79,TP
+cleaned_BenchmarkTest00721.sarif,00721,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00722.sarif,00722,False,79,False,,TN
+cleaned_BenchmarkTest00723.sarif,00723,False,79,True,79,FP
+cleaned_BenchmarkTest00724.sarif,00724,True,79,True,79,TP
+cleaned_BenchmarkTest00725.sarif,00725,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00726.sarif,00726,False,79,False,,TN
+cleaned_BenchmarkTest00727.sarif,00727,True,79,True,79,TP
+cleaned_BenchmarkTest00728.sarif,00728,True,79,True,79,TP
+cleaned_BenchmarkTest00729.sarif,00729,True,79,True,79,TP
+cleaned_BenchmarkTest00730.sarif,00730,False,79,True,79,FP
+cleaned_BenchmarkTest00731.sarif,00731,True,78,True,78,TP
+cleaned_BenchmarkTest00732.sarif,00732,False,78,True,78,FP
+cleaned_BenchmarkTest00733.sarif,00733,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00734.sarif,00734,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00735.sarif,00735,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00736.sarif,00736,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00737.sarif,00737,True,79,True,79,TP
+cleaned_BenchmarkTest00738.sarif,00738,False,78,True,78,FP
+cleaned_BenchmarkTest00739.sarif,00739,False,78,True,78,FP
+cleaned_BenchmarkTest00740.sarif,00740,True,78,False,,FN_Missed
+cleaned_BenchmarkTest00741.sarif,00741,False,78,True,78,FP
+cleaned_BenchmarkTest00742.sarif,00742,False,78,True,78,FP
+cleaned_BenchmarkTest00743.sarif,00743,False,78,True,78,FP
+cleaned_BenchmarkTest00744.sarif,00744,False,330,True,352,FP
+cleaned_BenchmarkTest00745.sarif,00745,False,330,True,352,FP
+cleaned_BenchmarkTest00746.sarif,00746,False,330,True,352,FP
+cleaned_BenchmarkTest00747.sarif,00747,False,330,True,352,FP
+cleaned_BenchmarkTest00748.sarif,00748,False,330,True,352,FP
+cleaned_BenchmarkTest00749.sarif,00749,False,330,True,352,FP
+cleaned_BenchmarkTest00750.sarif,00750,False,330,True,352,FP
+cleaned_BenchmarkTest00751.sarif,00751,False,330,True,352,FP
+cleaned_BenchmarkTest00752.sarif,00752,False,330,True,352,FP
+cleaned_BenchmarkTest00753.sarif,00753,False,330,True,352,FP
+cleaned_BenchmarkTest00754.sarif,00754,True,501,True,501,TP
+cleaned_BenchmarkTest00755.sarif,00755,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest00756.sarif,00756,True,501,True,501,TP
+cleaned_BenchmarkTest00757.sarif,00757,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00758.sarif,00758,False,501,True,501,FP
+cleaned_BenchmarkTest00759.sarif,00759,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00760.sarif,00760,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00761.sarif,00761,True,89,True,89,TP
+cleaned_BenchmarkTest00762.sarif,00762,True,89,True,89,TP
+cleaned_BenchmarkTest00763.sarif,00763,False,89,True,89,FP
+cleaned_BenchmarkTest00764.sarif,00764,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00765.sarif,00765,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00766.sarif,00766,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest00767.sarif,00767,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest00768.sarif,00768,True,89,True,89,TP
+cleaned_BenchmarkTest00769.sarif,00769,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00770.sarif,00770,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00771.sarif,00771,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00772.sarif,00772,False,89,True,89,FP
+cleaned_BenchmarkTest00773.sarif,00773,False,89,False,,TN
+cleaned_BenchmarkTest00774.sarif,00774,False,89,True,89,FP
+cleaned_BenchmarkTest00775.sarif,00775,False,327,False,,TN
+cleaned_BenchmarkTest00776.sarif,00776,False,327,False,,TN
+cleaned_BenchmarkTest00777.sarif,00777,False,327,False,,TN
+cleaned_BenchmarkTest00778.sarif,00778,False,327,False,,TN
+cleaned_BenchmarkTest00779.sarif,00779,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00780.sarif,00780,False,327,False,,TN
+cleaned_BenchmarkTest00781.sarif,00781,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00782.sarif,00782,False,327,False,,TN
+cleaned_BenchmarkTest00783.sarif,00783,True,22,True,22,TP
+cleaned_BenchmarkTest00784.sarif,00784,False,22,True,22,FP
+cleaned_BenchmarkTest00785.sarif,00785,True,22,True,22,TP
+cleaned_BenchmarkTest00786.sarif,00786,False,22,True,22,FP
+cleaned_BenchmarkTest00787.sarif,00787,True,22,True,22,TP
+cleaned_BenchmarkTest00788.sarif,00788,True,22,True,22,TP
+cleaned_BenchmarkTest00789.sarif,00789,True,328,True,328,TP
+cleaned_BenchmarkTest00790.sarif,00790,True,328,True,328,TP
+cleaned_BenchmarkTest00791.sarif,00791,False,328,False,,TN
+cleaned_BenchmarkTest00792.sarif,00792,False,328,False,,TN
+cleaned_BenchmarkTest00793.sarif,00793,False,328,False,,TN
+cleaned_BenchmarkTest00794.sarif,00794,True,328,True,328,TP
+cleaned_BenchmarkTest00795.sarif,00795,False,328,False,,TN
+cleaned_BenchmarkTest00796.sarif,00796,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00797.sarif,00797,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00798.sarif,00798,False,328,False,,TN
+cleaned_BenchmarkTest00799.sarif,00799,False,79,False,,TN
+cleaned_BenchmarkTest00800.sarif,00800,True,79,True,79,TP
+cleaned_BenchmarkTest00801.sarif,00801,True,79,True,79,TP
+cleaned_BenchmarkTest00802.sarif,00802,True,79,True,79,TP
+cleaned_BenchmarkTest00803.sarif,00803,True,79,True,79,TP
+cleaned_BenchmarkTest00804.sarif,00804,True,79,True,79,TP
+cleaned_BenchmarkTest00805.sarif,00805,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00806.sarif,00806,True,79,False,,FN_Missed
+cleaned_BenchmarkTest00807.sarif,00807,True,79,True,79,TP
+cleaned_BenchmarkTest00808.sarif,00808,False,79,False,,TN
+cleaned_BenchmarkTest00809.sarif,00809,True,79,True,79,TP
+cleaned_BenchmarkTest00810.sarif,00810,True,79,True,79,TP
+cleaned_BenchmarkTest00811.sarif,00811,True,79,True,79,TP
+cleaned_BenchmarkTest00812.sarif,00812,False,79,True,79,FP
+cleaned_BenchmarkTest00813.sarif,00813,False,79,True,79,FP
+cleaned_BenchmarkTest00814.sarif,00814,False,78,True,78,FP
+cleaned_BenchmarkTest00815.sarif,00815,True,78,True,78,TP
+cleaned_BenchmarkTest00816.sarif,00816,True,78,True,78,TP
+cleaned_BenchmarkTest00817.sarif,00817,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00818.sarif,00818,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00819.sarif,00819,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00820.sarif,00820,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00821.sarif,00821,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00822.sarif,00822,True,79,True,79,TP
+cleaned_BenchmarkTest00823.sarif,00823,True,78,False,,FN_Missed
+cleaned_BenchmarkTest00824.sarif,00824,True,78,True,78,TP
+cleaned_BenchmarkTest00825.sarif,00825,True,78,True,78,TP
+cleaned_BenchmarkTest00826.sarif,00826,False,78,True,78,FP
+cleaned_BenchmarkTest00827.sarif,00827,False,78,False,,TN
+cleaned_BenchmarkTest00828.sarif,00828,False,330,True,352,FP
+cleaned_BenchmarkTest00829.sarif,00829,False,330,True,352,FP
+cleaned_BenchmarkTest00830.sarif,00830,False,330,True,352,FP
+cleaned_BenchmarkTest00831.sarif,00831,False,330,True,352,FP
+cleaned_BenchmarkTest00832.sarif,00832,False,330,True,352,FP
+cleaned_BenchmarkTest00833.sarif,00833,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00834.sarif,00834,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00835.sarif,00835,False,501,True,501,FP
+cleaned_BenchmarkTest00836.sarif,00836,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest00837.sarif,00837,False,89,False,,TN
+cleaned_BenchmarkTest00838.sarif,00838,False,89,True,89,FP
+cleaned_BenchmarkTest00839.sarif,00839,True,89,True,89,TP
+cleaned_BenchmarkTest00840.sarif,00840,True,89,True,89,TP
+cleaned_BenchmarkTest00841.sarif,00841,True,89,True,89,TP
+cleaned_BenchmarkTest00842.sarif,00842,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00843.sarif,00843,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00844.sarif,00844,False,89,False,,TN
+cleaned_BenchmarkTest00845.sarif,00845,True,89,True,89,TP
+cleaned_BenchmarkTest00846.sarif,00846,True,89,True,89,TP
+cleaned_BenchmarkTest00847.sarif,00847,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00848.sarif,00848,True,89,True,89,TP
+cleaned_BenchmarkTest00849.sarif,00849,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00850.sarif,00850,True,89,False,,FN_Missed
+cleaned_BenchmarkTest00851.sarif,00851,False,89,True,89,FP
+cleaned_BenchmarkTest00852.sarif,00852,False,643,True,643,FP
+cleaned_BenchmarkTest00853.sarif,00853,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00854.sarif,00854,False,327,False,,TN
+cleaned_BenchmarkTest00855.sarif,00855,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00856.sarif,00856,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00857.sarif,00857,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00858.sarif,00858,False,327,False,,TN
+cleaned_BenchmarkTest00859.sarif,00859,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest00860.sarif,00860,False,90,False,,TN
+cleaned_BenchmarkTest00861.sarif,00861,False,90,True,90,FP
+cleaned_BenchmarkTest00862.sarif,00862,False,22,True,22,FP
+cleaned_BenchmarkTest00863.sarif,00863,False,22,True,22,FP
+cleaned_BenchmarkTest00864.sarif,00864,False,22,False,,TN
+cleaned_BenchmarkTest00865.sarif,00865,False,22,False,,TN
+cleaned_BenchmarkTest00866.sarif,00866,False,22,True,22,FP
+cleaned_BenchmarkTest00867.sarif,00867,False,22,False,,TN
+cleaned_BenchmarkTest00868.sarif,00868,True,328,True,328,TP
+cleaned_BenchmarkTest00869.sarif,00869,True,328,True,328,TP
+cleaned_BenchmarkTest00870.sarif,00870,True,328,True,328,TP
+cleaned_BenchmarkTest00871.sarif,00871,True,328,True,328,TP
+cleaned_BenchmarkTest00872.sarif,00872,True,328,True,328,TP
+cleaned_BenchmarkTest00873.sarif,00873,False,328,False,,TN
+cleaned_BenchmarkTest00874.sarif,00874,False,328,False,,TN
+cleaned_BenchmarkTest00875.sarif,00875,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00876.sarif,00876,True,328,False,,FN_Missed
+cleaned_BenchmarkTest00877.sarif,00877,False,328,False,,TN
+cleaned_BenchmarkTest00878.sarif,00878,False,328,False,,TN
+cleaned_BenchmarkTest00879.sarif,00879,False,79,False,,TN
+cleaned_BenchmarkTest00880.sarif,00880,False,79,False,,TN
+cleaned_BenchmarkTest00881.sarif,00881,False,79,False,,TN
+cleaned_BenchmarkTest00882.sarif,00882,False,79,False,,TN
+cleaned_BenchmarkTest00883.sarif,00883,False,79,False,,TN
+cleaned_BenchmarkTest00884.sarif,00884,False,79,False,,TN
+cleaned_BenchmarkTest00885.sarif,00885,False,79,False,,TN
+cleaned_BenchmarkTest00886.sarif,00886,False,79,False,,TN
+cleaned_BenchmarkTest00887.sarif,00887,False,79,False,,TN
+cleaned_BenchmarkTest00888.sarif,00888,False,79,False,,TN
+cleaned_BenchmarkTest00889.sarif,00889,False,79,False,,TN
+cleaned_BenchmarkTest00890.sarif,00890,False,79,False,,TN
+cleaned_BenchmarkTest00891.sarif,00891,False,79,False,,TN
+cleaned_BenchmarkTest00892.sarif,00892,False,79,False,,TN
+cleaned_BenchmarkTest00893.sarif,00893,False,79,False,,TN
+cleaned_BenchmarkTest00894.sarif,00894,False,79,False,,TN
+cleaned_BenchmarkTest00895.sarif,00895,False,78,False,,TN
+cleaned_BenchmarkTest00896.sarif,00896,False,78,True,78,FP
+cleaned_BenchmarkTest00897.sarif,00897,False,78,True,78,FP
+cleaned_BenchmarkTest00898.sarif,00898,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00899.sarif,00899,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00900.sarif,00900,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00901.sarif,00901,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00902.sarif,00902,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest00903.sarif,00903,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest00904.sarif,00904,False,614,True,352,FP
+cleaned_BenchmarkTest00905.sarif,00905,False,78,True,78,FP
+cleaned_BenchmarkTest00906.sarif,00906,False,78,True,78,FP
+cleaned_BenchmarkTest00907.sarif,00907,False,78,True,78,FP
+cleaned_BenchmarkTest00908.sarif,00908,False,78,True,78,FP
+cleaned_BenchmarkTest00909.sarif,00909,False,78,True,78,FP
+cleaned_BenchmarkTest00910.sarif,00910,False,78,True,78,FP
+cleaned_BenchmarkTest00911.sarif,00911,False,330,True,352,FP
+cleaned_BenchmarkTest00912.sarif,00912,False,330,True,352,FP
+cleaned_BenchmarkTest00913.sarif,00913,False,330,True,352,FP
+cleaned_BenchmarkTest00914.sarif,00914,False,330,True,352,FP
+cleaned_BenchmarkTest00915.sarif,00915,False,330,True,352,FP
+cleaned_BenchmarkTest00916.sarif,00916,False,330,True,352,FP
+cleaned_BenchmarkTest00917.sarif,00917,False,330,True,352,FP
+cleaned_BenchmarkTest00918.sarif,00918,False,330,True,352,FP
+cleaned_BenchmarkTest00919.sarif,00919,False,330,True,352,FP
+cleaned_BenchmarkTest00920.sarif,00920,False,330,True,352,FP
+cleaned_BenchmarkTest00921.sarif,00921,False,330,True,352,FP
+cleaned_BenchmarkTest00922.sarif,00922,False,501,False,,TN
+cleaned_BenchmarkTest00923.sarif,00923,False,501,False,,TN
+cleaned_BenchmarkTest00924.sarif,00924,False,89,False,,TN
+cleaned_BenchmarkTest00925.sarif,00925,False,89,False,,TN
+cleaned_BenchmarkTest00926.sarif,00926,False,89,False,,TN
+cleaned_BenchmarkTest00927.sarif,00927,False,89,False,,TN
+cleaned_BenchmarkTest00928.sarif,00928,False,89,False,,TN
+cleaned_BenchmarkTest00929.sarif,00929,False,89,False,,TN
+cleaned_BenchmarkTest00930.sarif,00930,False,89,False,,TN
+cleaned_BenchmarkTest00931.sarif,00931,False,89,False,,TN
+cleaned_BenchmarkTest00932.sarif,00932,False,89,False,,TN
+cleaned_BenchmarkTest00933.sarif,00933,False,89,False,,TN
+cleaned_BenchmarkTest00934.sarif,00934,False,89,False,,TN
+cleaned_BenchmarkTest00935.sarif,00935,False,89,False,,TN
+cleaned_BenchmarkTest00936.sarif,00936,False,89,False,,TN
+cleaned_BenchmarkTest00937.sarif,00937,False,89,False,,TN
+cleaned_BenchmarkTest00938.sarif,00938,False,89,False,,TN
+cleaned_BenchmarkTest00939.sarif,00939,False,89,False,,TN
+cleaned_BenchmarkTest00940.sarif,00940,False,89,False,,TN
+cleaned_BenchmarkTest00941.sarif,00941,False,643,False,,TN
+cleaned_BenchmarkTest00942.sarif,00942,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00943.sarif,00943,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00944.sarif,00944,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest00945.sarif,00945,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00946.sarif,00946,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest00947.sarif,00947,True,90,True,"79, 90, 352, 1004",TP
+cleaned_BenchmarkTest00948.sarif,00948,False,90,True,"79, 90, 352, 1004",FP
+cleaned_BenchmarkTest00949.sarif,00949,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00950.sarif,00950,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00951.sarif,00951,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest00952.sarif,00952,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00953.sarif,00953,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00954.sarif,00954,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest00955.sarif,00955,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest00956.sarif,00956,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest00957.sarif,00957,False,22,True,"352, 1004",FP
+cleaned_BenchmarkTest00958.sarif,00958,False,22,True,"352, 1004",FP
+cleaned_BenchmarkTest00959.sarif,00959,True,90,True,"79, 90, 352, 1004",TP
+cleaned_BenchmarkTest00960.sarif,00960,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00961.sarif,00961,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest00962.sarif,00962,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00963.sarif,00963,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest00964.sarif,00964,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00965.sarif,00965,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00966.sarif,00966,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00967.sarif,00967,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest00968.sarif,00968,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00969.sarif,00969,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00970.sarif,00970,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00971.sarif,00971,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00972.sarif,00972,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00973.sarif,00973,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00974.sarif,00974,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00975.sarif,00975,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00976.sarif,00976,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest00977.sarif,00977,True,614,True,"352, 614, 1004",TP
+cleaned_BenchmarkTest00978.sarif,00978,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00979.sarif,00979,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00980.sarif,00980,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00981.sarif,00981,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00982.sarif,00982,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest00983.sarif,00983,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest00984.sarif,00984,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00985.sarif,00985,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00986.sarif,00986,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00987.sarif,00987,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00988.sarif,00988,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00989.sarif,00989,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00990.sarif,00990,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest00991.sarif,00991,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest00992.sarif,00992,False,501,True,"79, 352, 501, 1004",FP
+cleaned_BenchmarkTest00993.sarif,00993,False,501,True,"79, 352, 501, 1004",FP
+cleaned_BenchmarkTest00994.sarif,00994,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest00995.sarif,00995,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest00996.sarif,00996,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00997.sarif,00997,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00998.sarif,00998,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest00999.sarif,00999,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01000.sarif,01000,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01001.sarif,01001,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01002.sarif,01002,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01003.sarif,01003,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01004.sarif,01004,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01005.sarif,01005,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01006.sarif,01006,True,89,True,"79, 89, 352, 1004",TP
+cleaned_BenchmarkTest01007.sarif,01007,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01008.sarif,01008,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01009.sarif,01009,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01010.sarif,01010,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01011.sarif,01011,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01012.sarif,01012,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01013.sarif,01013,False,643,True,"79, 352, 643, 1004",FP
+cleaned_BenchmarkTest01014.sarif,01014,False,643,True,"79, 352, 643, 1004",FP
+cleaned_BenchmarkTest01015.sarif,01015,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01016.sarif,01016,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01017.sarif,01017,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01018.sarif,01018,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01019.sarif,01019,False,327,False,,TN
+cleaned_BenchmarkTest01020.sarif,01020,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01021.sarif,01021,False,327,False,,TN
+cleaned_BenchmarkTest01022.sarif,01022,False,327,False,,TN
+cleaned_BenchmarkTest01023.sarif,01023,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01024.sarif,01024,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01025.sarif,01025,True,22,True,22,TP
+cleaned_BenchmarkTest01026.sarif,01026,False,22,True,22,FP
+cleaned_BenchmarkTest01027.sarif,01027,False,22,True,22,FP
+cleaned_BenchmarkTest01028.sarif,01028,False,22,True,22,FP
+cleaned_BenchmarkTest01029.sarif,01029,True,22,True,22,TP
+cleaned_BenchmarkTest01030.sarif,01030,False,22,True,22,FP
+cleaned_BenchmarkTest01031.sarif,01031,False,22,True,22,FP
+cleaned_BenchmarkTest01032.sarif,01032,True,22,True,22,TP
+cleaned_BenchmarkTest01033.sarif,01033,True,22,True,22,TP
+cleaned_BenchmarkTest01034.sarif,01034,True,22,True,22,TP
+cleaned_BenchmarkTest01035.sarif,01035,False,22,True,22,FP
+cleaned_BenchmarkTest01036.sarif,01036,False,22,False,,TN
+cleaned_BenchmarkTest01037.sarif,01037,False,328,False,,TN
+cleaned_BenchmarkTest01038.sarif,01038,True,328,True,328,TP
+cleaned_BenchmarkTest01039.sarif,01039,False,328,False,,TN
+cleaned_BenchmarkTest01040.sarif,01040,False,328,False,,TN
+cleaned_BenchmarkTest01041.sarif,01041,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01042.sarif,01042,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01043.sarif,01043,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01044.sarif,01044,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01045.sarif,01045,False,328,False,,TN
+cleaned_BenchmarkTest01046.sarif,01046,True,79,True,79,TP
+cleaned_BenchmarkTest01047.sarif,01047,True,79,True,79,TP
+cleaned_BenchmarkTest01048.sarif,01048,False,79,True,79,FP
+cleaned_BenchmarkTest01049.sarif,01049,True,79,True,79,TP
+cleaned_BenchmarkTest01050.sarif,01050,True,79,True,79,TP
+cleaned_BenchmarkTest01051.sarif,01051,False,79,True,79,FP
+cleaned_BenchmarkTest01052.sarif,01052,False,79,True,79,FP
+cleaned_BenchmarkTest01053.sarif,01053,False,79,True,79,FP
+cleaned_BenchmarkTest01054.sarif,01054,False,79,True,79,FP
+cleaned_BenchmarkTest01055.sarif,01055,True,79,True,79,TP
+cleaned_BenchmarkTest01056.sarif,01056,True,79,True,79,TP
+cleaned_BenchmarkTest01057.sarif,01057,True,79,True,79,TP
+cleaned_BenchmarkTest01058.sarif,01058,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01059.sarif,01059,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01060.sarif,01060,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01061.sarif,01061,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01062.sarif,01062,False,614,True,352,FP
+cleaned_BenchmarkTest01063.sarif,01063,True,79,True,79,TP
+cleaned_BenchmarkTest01064.sarif,01064,True,78,True,78,TP
+cleaned_BenchmarkTest01065.sarif,01065,False,78,True,78,FP
+cleaned_BenchmarkTest01066.sarif,01066,True,78,True,78,TP
+cleaned_BenchmarkTest01067.sarif,01067,False,78,True,78,FP
+cleaned_BenchmarkTest01068.sarif,01068,False,78,True,78,FP
+cleaned_BenchmarkTest01069.sarif,01069,False,330,True,352,FP
+cleaned_BenchmarkTest01070.sarif,01070,False,330,True,352,FP
+cleaned_BenchmarkTest01071.sarif,01071,False,330,True,352,FP
+cleaned_BenchmarkTest01072.sarif,01072,False,330,True,352,FP
+cleaned_BenchmarkTest01073.sarif,01073,False,330,True,352,FP
+cleaned_BenchmarkTest01074.sarif,01074,False,330,True,352,FP
+cleaned_BenchmarkTest01075.sarif,01075,False,330,True,352,FP
+cleaned_BenchmarkTest01076.sarif,01076,False,330,True,352,FP
+cleaned_BenchmarkTest01077.sarif,01077,False,330,True,352,FP
+cleaned_BenchmarkTest01078.sarif,01078,False,330,True,352,FP
+cleaned_BenchmarkTest01079.sarif,01079,False,330,True,352,FP
+cleaned_BenchmarkTest01080.sarif,01080,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01081.sarif,01081,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01082.sarif,01082,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01083.sarif,01083,True,89,True,89,TP
+cleaned_BenchmarkTest01084.sarif,01084,True,89,True,89,TP
+cleaned_BenchmarkTest01085.sarif,01085,False,89,True,89,FP
+cleaned_BenchmarkTest01086.sarif,01086,False,89,True,89,FP
+cleaned_BenchmarkTest01087.sarif,01087,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01088.sarif,01088,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01089.sarif,01089,False,89,True,89,FP
+cleaned_BenchmarkTest01090.sarif,01090,True,89,True,89,TP
+cleaned_BenchmarkTest01091.sarif,01091,True,89,True,89,TP
+cleaned_BenchmarkTest01092.sarif,01092,False,89,True,89,FP
+cleaned_BenchmarkTest01093.sarif,01093,True,89,True,89,TP
+cleaned_BenchmarkTest01094.sarif,01094,True,89,True,89,TP
+cleaned_BenchmarkTest01095.sarif,01095,False,89,True,89,FP
+cleaned_BenchmarkTest01096.sarif,01096,False,89,True,89,FP
+cleaned_BenchmarkTest01097.sarif,01097,True,89,True,89,TP
+cleaned_BenchmarkTest01098.sarif,01098,False,89,True,89,FP
+cleaned_BenchmarkTest01099.sarif,01099,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01100.sarif,01100,False,327,False,,TN
+cleaned_BenchmarkTest01101.sarif,01101,False,327,False,,TN
+cleaned_BenchmarkTest01102.sarif,01102,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01103.sarif,01103,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01104.sarif,01104,False,327,False,,TN
+cleaned_BenchmarkTest01105.sarif,01105,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01106.sarif,01106,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01107.sarif,01107,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01108.sarif,01108,False,327,False,,TN
+cleaned_BenchmarkTest01109.sarif,01109,False,22,True,22,FP
+cleaned_BenchmarkTest01110.sarif,01110,False,22,True,22,FP
+cleaned_BenchmarkTest01111.sarif,01111,True,22,True,22,TP
+cleaned_BenchmarkTest01112.sarif,01112,True,22,True,22,TP
+cleaned_BenchmarkTest01113.sarif,01113,False,22,True,22,FP
+cleaned_BenchmarkTest01114.sarif,01114,False,22,True,22,FP
+cleaned_BenchmarkTest01115.sarif,01115,False,22,True,22,FP
+cleaned_BenchmarkTest01116.sarif,01116,True,22,True,22,TP
+cleaned_BenchmarkTest01117.sarif,01117,True,22,True,22,TP
+cleaned_BenchmarkTest01118.sarif,01118,False,22,False,,TN
+cleaned_BenchmarkTest01119.sarif,01119,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01120.sarif,01120,False,328,False,,TN
+cleaned_BenchmarkTest01121.sarif,01121,False,328,False,,TN
+cleaned_BenchmarkTest01122.sarif,01122,False,328,False,,TN
+cleaned_BenchmarkTest01123.sarif,01123,True,328,True,328,TP
+cleaned_BenchmarkTest01124.sarif,01124,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01125.sarif,01125,False,328,False,,TN
+cleaned_BenchmarkTest01126.sarif,01126,False,328,False,,TN
+cleaned_BenchmarkTest01127.sarif,01127,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01128.sarif,01128,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01129.sarif,01129,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01130.sarif,01130,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01131.sarif,01131,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01132.sarif,01132,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01133.sarif,01133,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01134.sarif,01134,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01135.sarif,01135,False,330,True,352,FP
+cleaned_BenchmarkTest01136.sarif,01136,False,330,True,352,FP
+cleaned_BenchmarkTest01137.sarif,01137,False,330,True,352,FP
+cleaned_BenchmarkTest01138.sarif,01138,False,330,True,352,FP
+cleaned_BenchmarkTest01139.sarif,01139,False,330,True,352,FP
+cleaned_BenchmarkTest01140.sarif,01140,False,330,True,352,FP
+cleaned_BenchmarkTest01141.sarif,01141,False,330,True,352,FP
+cleaned_BenchmarkTest01142.sarif,01142,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01143.sarif,01143,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01144.sarif,01144,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01145.sarif,01145,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01146.sarif,01146,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01147.sarif,01147,False,327,False,,TN
+cleaned_BenchmarkTest01148.sarif,01148,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01149.sarif,01149,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01150.sarif,01150,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01151.sarif,01151,False,327,False,,TN
+cleaned_BenchmarkTest01152.sarif,01152,False,327,False,,TN
+cleaned_BenchmarkTest01153.sarif,01153,False,327,False,,TN
+cleaned_BenchmarkTest01154.sarif,01154,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01155.sarif,01155,True,22,True,22,TP
+cleaned_BenchmarkTest01156.sarif,01156,True,22,True,22,TP
+cleaned_BenchmarkTest01157.sarif,01157,True,22,True,22,TP
+cleaned_BenchmarkTest01158.sarif,01158,False,22,True,22,FP
+cleaned_BenchmarkTest01159.sarif,01159,False,22,True,22,FP
+cleaned_BenchmarkTest01160.sarif,01160,False,22,True,22,FP
+cleaned_BenchmarkTest01161.sarif,01161,True,22,True,22,TP
+cleaned_BenchmarkTest01162.sarif,01162,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01163.sarif,01163,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01164.sarif,01164,False,328,False,,TN
+cleaned_BenchmarkTest01165.sarif,01165,True,328,True,328,TP
+cleaned_BenchmarkTest01166.sarif,01166,True,328,True,328,TP
+cleaned_BenchmarkTest01167.sarif,01167,True,328,True,328,TP
+cleaned_BenchmarkTest01168.sarif,01168,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01169.sarif,01169,False,328,False,,TN
+cleaned_BenchmarkTest01170.sarif,01170,False,328,False,,TN
+cleaned_BenchmarkTest01171.sarif,01171,True,79,True,79,TP
+cleaned_BenchmarkTest01172.sarif,01172,True,79,True,79,TP
+cleaned_BenchmarkTest01173.sarif,01173,True,79,True,79,TP
+cleaned_BenchmarkTest01174.sarif,01174,True,79,True,79,TP
+cleaned_BenchmarkTest01175.sarif,01175,False,79,True,79,FP
+cleaned_BenchmarkTest01176.sarif,01176,False,79,True,79,FP
+cleaned_BenchmarkTest01177.sarif,01177,True,79,True,79,TP
+cleaned_BenchmarkTest01178.sarif,01178,True,79,True,79,TP
+cleaned_BenchmarkTest01179.sarif,01179,True,79,True,79,TP
+cleaned_BenchmarkTest01180.sarif,01180,False,79,True,79,FP
+cleaned_BenchmarkTest01181.sarif,01181,True,79,True,79,TP
+cleaned_BenchmarkTest01182.sarif,01182,False,78,True,78,FP
+cleaned_BenchmarkTest01183.sarif,01183,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01184.sarif,01184,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01185.sarif,01185,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01186.sarif,01186,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01187.sarif,01187,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01188.sarif,01188,False,79,True,79,FP
+cleaned_BenchmarkTest01189.sarif,01189,False,78,True,78,FP
+cleaned_BenchmarkTest01190.sarif,01190,True,78,True,78,TP
+cleaned_BenchmarkTest01191.sarif,01191,True,78,True,78,TP
+cleaned_BenchmarkTest01192.sarif,01192,True,78,True,78,TP
+cleaned_BenchmarkTest01193.sarif,01193,False,78,True,78,FP
+cleaned_BenchmarkTest01194.sarif,01194,True,78,True,78,TP
+cleaned_BenchmarkTest01195.sarif,01195,False,330,True,352,FP
+cleaned_BenchmarkTest01196.sarif,01196,False,330,True,352,FP
+cleaned_BenchmarkTest01197.sarif,01197,False,330,True,352,FP
+cleaned_BenchmarkTest01198.sarif,01198,False,330,True,352,FP
+cleaned_BenchmarkTest01199.sarif,01199,False,330,True,352,FP
+cleaned_BenchmarkTest01200.sarif,01200,False,330,True,352,FP
+cleaned_BenchmarkTest01201.sarif,01201,False,330,True,352,FP
+cleaned_BenchmarkTest01202.sarif,01202,False,330,True,352,FP
+cleaned_BenchmarkTest01203.sarif,01203,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01204.sarif,01204,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01205.sarif,01205,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01206.sarif,01206,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01207.sarif,01207,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01208.sarif,01208,True,89,True,89,TP
+cleaned_BenchmarkTest01209.sarif,01209,True,89,True,89,TP
+cleaned_BenchmarkTest01210.sarif,01210,True,89,True,89,TP
+cleaned_BenchmarkTest01211.sarif,01211,True,89,True,89,TP
+cleaned_BenchmarkTest01212.sarif,01212,False,89,True,89,FP
+cleaned_BenchmarkTest01213.sarif,01213,False,89,True,89,FP
+cleaned_BenchmarkTest01214.sarif,01214,True,89,True,89,TP
+cleaned_BenchmarkTest01215.sarif,01215,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest01216.sarif,01216,False,89,True,89,FP
+cleaned_BenchmarkTest01217.sarif,01217,False,89,True,89,FP
+cleaned_BenchmarkTest01218.sarif,01218,False,89,True,89,FP
+cleaned_BenchmarkTest01219.sarif,01219,False,89,True,89,FP
+cleaned_BenchmarkTest01220.sarif,01220,False,89,True,89,FP
+cleaned_BenchmarkTest01221.sarif,01221,True,89,True,89,TP
+cleaned_BenchmarkTest01222.sarif,01222,True,89,True,89,TP
+cleaned_BenchmarkTest01223.sarif,01223,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01224.sarif,01224,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01225.sarif,01225,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01226.sarif,01226,False,327,False,,TN
+cleaned_BenchmarkTest01227.sarif,01227,False,327,False,,TN
+cleaned_BenchmarkTest01228.sarif,01228,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01229.sarif,01229,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01230.sarif,01230,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01231.sarif,01231,True,22,True,22,TP
+cleaned_BenchmarkTest01232.sarif,01232,True,22,True,22,TP
+cleaned_BenchmarkTest01233.sarif,01233,False,22,True,22,FP
+cleaned_BenchmarkTest01234.sarif,01234,True,22,True,22,TP
+cleaned_BenchmarkTest01235.sarif,01235,True,22,True,22,TP
+cleaned_BenchmarkTest01236.sarif,01236,True,22,True,22,TP
+cleaned_BenchmarkTest01237.sarif,01237,False,22,True,22,FP
+cleaned_BenchmarkTest01238.sarif,01238,True,22,True,22,TP
+cleaned_BenchmarkTest01239.sarif,01239,False,22,True,22,FP
+cleaned_BenchmarkTest01240.sarif,01240,False,22,True,22,FP
+cleaned_BenchmarkTest01241.sarif,01241,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01242.sarif,01242,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01243.sarif,01243,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01244.sarif,01244,True,328,True,328,TP
+cleaned_BenchmarkTest01245.sarif,01245,False,328,False,,TN
+cleaned_BenchmarkTest01246.sarif,01246,True,328,True,328,TP
+cleaned_BenchmarkTest01247.sarif,01247,True,328,True,328,TP
+cleaned_BenchmarkTest01248.sarif,01248,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01249.sarif,01249,False,328,False,,TN
+cleaned_BenchmarkTest01250.sarif,01250,False,328,False,,TN
+cleaned_BenchmarkTest01251.sarif,01251,False,79,True,79,FP
+cleaned_BenchmarkTest01252.sarif,01252,False,79,True,79,FP
+cleaned_BenchmarkTest01253.sarif,01253,True,79,True,79,TP
+cleaned_BenchmarkTest01254.sarif,01254,True,79,True,79,TP
+cleaned_BenchmarkTest01255.sarif,01255,False,79,True,79,FP
+cleaned_BenchmarkTest01256.sarif,01256,False,79,True,79,FP
+cleaned_BenchmarkTest01257.sarif,01257,True,79,True,79,TP
+cleaned_BenchmarkTest01258.sarif,01258,True,79,True,79,TP
+cleaned_BenchmarkTest01259.sarif,01259,True,79,True,79,TP
+cleaned_BenchmarkTest01260.sarif,01260,True,79,True,79,TP
+cleaned_BenchmarkTest01261.sarif,01261,True,79,True,79,TP
+cleaned_BenchmarkTest01262.sarif,01262,True,79,True,79,TP
+cleaned_BenchmarkTest01263.sarif,01263,True,79,True,79,TP
+cleaned_BenchmarkTest01264.sarif,01264,False,79,True,79,FP
+cleaned_BenchmarkTest01265.sarif,01265,False,79,True,79,FP
+cleaned_BenchmarkTest01266.sarif,01266,True,79,True,79,TP
+cleaned_BenchmarkTest01267.sarif,01267,True,79,True,79,TP
+cleaned_BenchmarkTest01268.sarif,01268,True,79,True,79,TP
+cleaned_BenchmarkTest01269.sarif,01269,False,78,True,78,FP
+cleaned_BenchmarkTest01270.sarif,01270,True,78,True,78,TP
+cleaned_BenchmarkTest01271.sarif,01271,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01272.sarif,01272,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01273.sarif,01273,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01274.sarif,01274,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01275.sarif,01275,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01276.sarif,01276,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01277.sarif,01277,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01278.sarif,01278,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01279.sarif,01279,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01280.sarif,01280,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01281.sarif,01281,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01282.sarif,01282,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01283.sarif,01283,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01284.sarif,01284,True,79,True,79,TP
+cleaned_BenchmarkTest01285.sarif,01285,True,78,True,78,TP
+cleaned_BenchmarkTest01286.sarif,01286,True,78,True,78,TP
+cleaned_BenchmarkTest01287.sarif,01287,True,78,True,78,TP
+cleaned_BenchmarkTest01288.sarif,01288,True,78,True,78,TP
+cleaned_BenchmarkTest01289.sarif,01289,False,78,True,78,FP
+cleaned_BenchmarkTest01290.sarif,01290,False,78,True,78,FP
+cleaned_BenchmarkTest01291.sarif,01291,False,330,True,352,FP
+cleaned_BenchmarkTest01292.sarif,01292,False,330,True,352,FP
+cleaned_BenchmarkTest01293.sarif,01293,False,330,True,352,FP
+cleaned_BenchmarkTest01294.sarif,01294,False,330,True,352,FP
+cleaned_BenchmarkTest01295.sarif,01295,False,330,True,352,FP
+cleaned_BenchmarkTest01296.sarif,01296,False,330,True,352,FP
+cleaned_BenchmarkTest01297.sarif,01297,False,330,True,352,FP
+cleaned_BenchmarkTest01298.sarif,01298,False,330,True,352,FP
+cleaned_BenchmarkTest01299.sarif,01299,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01300.sarif,01300,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01301.sarif,01301,False,89,True,89,FP
+cleaned_BenchmarkTest01302.sarif,01302,True,89,True,89,TP
+cleaned_BenchmarkTest01303.sarif,01303,False,89,True,89,FP
+cleaned_BenchmarkTest01304.sarif,01304,True,89,True,89,TP
+cleaned_BenchmarkTest01305.sarif,01305,False,89,True,89,FP
+cleaned_BenchmarkTest01306.sarif,01306,True,89,True,89,TP
+cleaned_BenchmarkTest01307.sarif,01307,False,89,True,89,FP
+cleaned_BenchmarkTest01308.sarif,01308,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01309.sarif,01309,False,89,True,89,FP
+cleaned_BenchmarkTest01310.sarif,01310,False,89,True,89,FP
+cleaned_BenchmarkTest01311.sarif,01311,True,89,True,89,TP
+cleaned_BenchmarkTest01312.sarif,01312,True,89,True,89,TP
+cleaned_BenchmarkTest01313.sarif,01313,True,89,True,89,TP
+cleaned_BenchmarkTest01314.sarif,01314,True,89,True,89,TP
+cleaned_BenchmarkTest01315.sarif,01315,False,89,True,89,FP
+cleaned_BenchmarkTest01316.sarif,01316,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01317.sarif,01317,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01318.sarif,01318,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01319.sarif,01319,False,327,False,,TN
+cleaned_BenchmarkTest01320.sarif,01320,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01321.sarif,01321,False,327,False,,TN
+cleaned_BenchmarkTest01322.sarif,01322,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01323.sarif,01323,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01324.sarif,01324,False,327,False,,TN
+cleaned_BenchmarkTest01325.sarif,01325,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01326.sarif,01326,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01327.sarif,01327,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01328.sarif,01328,False,22,True,22,FP
+cleaned_BenchmarkTest01329.sarif,01329,True,22,True,22,TP
+cleaned_BenchmarkTest01330.sarif,01330,True,22,True,22,TP
+cleaned_BenchmarkTest01331.sarif,01331,False,22,True,22,FP
+cleaned_BenchmarkTest01332.sarif,01332,False,328,False,,TN
+cleaned_BenchmarkTest01333.sarif,01333,True,328,True,328,TP
+cleaned_BenchmarkTest01334.sarif,01334,True,328,True,328,TP
+cleaned_BenchmarkTest01335.sarif,01335,True,79,True,79,TP
+cleaned_BenchmarkTest01336.sarif,01336,False,79,True,79,FP
+cleaned_BenchmarkTest01337.sarif,01337,True,79,True,79,TP
+cleaned_BenchmarkTest01338.sarif,01338,False,79,True,79,FP
+cleaned_BenchmarkTest01339.sarif,01339,False,79,True,79,FP
+cleaned_BenchmarkTest01340.sarif,01340,False,79,True,79,FP
+cleaned_BenchmarkTest01341.sarif,01341,False,79,True,79,FP
+cleaned_BenchmarkTest01342.sarif,01342,False,79,True,79,FP
+cleaned_BenchmarkTest01343.sarif,01343,False,79,True,79,FP
+cleaned_BenchmarkTest01344.sarif,01344,False,79,True,79,FP
+cleaned_BenchmarkTest01345.sarif,01345,False,79,True,79,FP
+cleaned_BenchmarkTest01346.sarif,01346,True,79,True,79,TP
+cleaned_BenchmarkTest01347.sarif,01347,True,79,True,79,TP
+cleaned_BenchmarkTest01348.sarif,01348,False,79,True,79,FP
+cleaned_BenchmarkTest01349.sarif,01349,True,79,True,79,TP
+cleaned_BenchmarkTest01350.sarif,01350,True,79,True,79,TP
+cleaned_BenchmarkTest01351.sarif,01351,False,79,True,79,FP
+cleaned_BenchmarkTest01352.sarif,01352,False,79,True,79,FP
+cleaned_BenchmarkTest01353.sarif,01353,False,78,True,78,FP
+cleaned_BenchmarkTest01354.sarif,01354,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01355.sarif,01355,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01356.sarif,01356,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01357.sarif,01357,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01358.sarif,01358,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01359.sarif,01359,False,614,True,352,FP
+cleaned_BenchmarkTest01360.sarif,01360,True,78,True,78,TP
+cleaned_BenchmarkTest01361.sarif,01361,True,78,True,78,TP
+cleaned_BenchmarkTest01362.sarif,01362,True,78,True,78,TP
+cleaned_BenchmarkTest01363.sarif,01363,True,78,True,78,TP
+cleaned_BenchmarkTest01364.sarif,01364,False,78,True,78,FP
+cleaned_BenchmarkTest01365.sarif,01365,False,78,True,78,FP
+cleaned_BenchmarkTest01366.sarif,01366,False,330,True,352,FP
+cleaned_BenchmarkTest01367.sarif,01367,False,330,True,352,FP
+cleaned_BenchmarkTest01368.sarif,01368,False,330,True,352,FP
+cleaned_BenchmarkTest01369.sarif,01369,False,330,True,352,FP
+cleaned_BenchmarkTest01370.sarif,01370,False,330,True,352,FP
+cleaned_BenchmarkTest01371.sarif,01371,False,330,True,352,FP
+cleaned_BenchmarkTest01372.sarif,01372,False,330,True,352,FP
+cleaned_BenchmarkTest01373.sarif,01373,False,330,True,352,FP
+cleaned_BenchmarkTest01374.sarif,01374,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01375.sarif,01375,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01376.sarif,01376,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01377.sarif,01377,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01378.sarif,01378,False,89,True,89,FP
+cleaned_BenchmarkTest01379.sarif,01379,True,89,True,89,TP
+cleaned_BenchmarkTest01380.sarif,01380,False,89,True,89,FP
+cleaned_BenchmarkTest01381.sarif,01381,True,89,True,89,TP
+cleaned_BenchmarkTest01382.sarif,01382,True,89,True,89,TP
+cleaned_BenchmarkTest01383.sarif,01383,True,89,True,89,TP
+cleaned_BenchmarkTest01384.sarif,01384,True,89,True,89,TP
+cleaned_BenchmarkTest01385.sarif,01385,False,89,True,89,FP
+cleaned_BenchmarkTest01386.sarif,01386,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest01387.sarif,01387,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest01388.sarif,01388,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01389.sarif,01389,False,89,True,89,FP
+cleaned_BenchmarkTest01390.sarif,01390,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01391.sarif,01391,True,89,True,89,TP
+cleaned_BenchmarkTest01392.sarif,01392,False,89,True,89,FP
+cleaned_BenchmarkTest01393.sarif,01393,False,89,True,89,FP
+cleaned_BenchmarkTest01394.sarif,01394,True,89,True,89,TP
+cleaned_BenchmarkTest01395.sarif,01395,True,89,True,89,TP
+cleaned_BenchmarkTest01396.sarif,01396,True,89,True,89,TP
+cleaned_BenchmarkTest01397.sarif,01397,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01398.sarif,01398,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01399.sarif,01399,False,327,False,,TN
+cleaned_BenchmarkTest01400.sarif,01400,False,327,False,,TN
+cleaned_BenchmarkTest01401.sarif,01401,False,327,False,,TN
+cleaned_BenchmarkTest01402.sarif,01402,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01403.sarif,01403,True,22,True,22,TP
+cleaned_BenchmarkTest01404.sarif,01404,False,22,True,22,FP
+cleaned_BenchmarkTest01405.sarif,01405,True,22,True,22,TP
+cleaned_BenchmarkTest01406.sarif,01406,False,22,True,22,FP
+cleaned_BenchmarkTest01407.sarif,01407,False,22,True,22,FP
+cleaned_BenchmarkTest01408.sarif,01408,True,22,True,22,TP
+cleaned_BenchmarkTest01409.sarif,01409,False,22,False,,TN
+cleaned_BenchmarkTest01410.sarif,01410,False,328,False,,TN
+cleaned_BenchmarkTest01411.sarif,01411,True,328,True,328,TP
+cleaned_BenchmarkTest01412.sarif,01412,False,328,False,,TN
+cleaned_BenchmarkTest01413.sarif,01413,False,328,False,,TN
+cleaned_BenchmarkTest01414.sarif,01414,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01415.sarif,01415,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01416.sarif,01416,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01417.sarif,01417,True,79,True,79,TP
+cleaned_BenchmarkTest01418.sarif,01418,True,79,True,79,TP
+cleaned_BenchmarkTest01419.sarif,01419,False,79,True,79,FP
+cleaned_BenchmarkTest01420.sarif,01420,False,79,True,79,FP
+cleaned_BenchmarkTest01421.sarif,01421,False,79,True,79,FP
+cleaned_BenchmarkTest01422.sarif,01422,False,79,True,79,FP
+cleaned_BenchmarkTest01423.sarif,01423,True,79,True,79,TP
+cleaned_BenchmarkTest01424.sarif,01424,True,79,True,79,TP
+cleaned_BenchmarkTest01425.sarif,01425,False,79,True,79,FP
+cleaned_BenchmarkTest01426.sarif,01426,True,79,True,79,TP
+cleaned_BenchmarkTest01427.sarif,01427,True,79,True,79,TP
+cleaned_BenchmarkTest01428.sarif,01428,True,79,True,79,TP
+cleaned_BenchmarkTest01429.sarif,01429,True,79,True,79,TP
+cleaned_BenchmarkTest01430.sarif,01430,True,78,True,78,TP
+cleaned_BenchmarkTest01431.sarif,01431,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01432.sarif,01432,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01433.sarif,01433,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01434.sarif,01434,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01435.sarif,01435,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01436.sarif,01436,False,614,True,352,FP
+cleaned_BenchmarkTest01437.sarif,01437,True,79,True,79,TP
+cleaned_BenchmarkTest01438.sarif,01438,True,79,True,79,TP
+cleaned_BenchmarkTest01439.sarif,01439,False,79,True,79,FP
+cleaned_BenchmarkTest01440.sarif,01440,False,78,True,78,FP
+cleaned_BenchmarkTest01441.sarif,01441,True,78,True,78,TP
+cleaned_BenchmarkTest01442.sarif,01442,True,78,True,78,TP
+cleaned_BenchmarkTest01443.sarif,01443,False,78,True,78,FP
+cleaned_BenchmarkTest01444.sarif,01444,False,78,True,78,FP
+cleaned_BenchmarkTest01445.sarif,01445,False,78,True,78,FP
+cleaned_BenchmarkTest01446.sarif,01446,True,78,True,78,TP
+cleaned_BenchmarkTest01447.sarif,01447,False,330,True,352,FP
+cleaned_BenchmarkTest01448.sarif,01448,False,330,True,352,FP
+cleaned_BenchmarkTest01449.sarif,01449,False,330,True,352,FP
+cleaned_BenchmarkTest01450.sarif,01450,False,330,True,352,FP
+cleaned_BenchmarkTest01451.sarif,01451,False,330,True,352,FP
+cleaned_BenchmarkTest01452.sarif,01452,False,330,True,352,FP
+cleaned_BenchmarkTest01453.sarif,01453,False,330,True,352,FP
+cleaned_BenchmarkTest01454.sarif,01454,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01455.sarif,01455,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01456.sarif,01456,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01457.sarif,01457,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01458.sarif,01458,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01459.sarif,01459,False,89,True,89,FP
+cleaned_BenchmarkTest01460.sarif,01460,True,89,True,89,TP
+cleaned_BenchmarkTest01461.sarif,01461,False,89,True,89,FP
+cleaned_BenchmarkTest01462.sarif,01462,True,89,True,89,TP
+cleaned_BenchmarkTest01463.sarif,01463,True,89,True,89,TP
+cleaned_BenchmarkTest01464.sarif,01464,True,89,True,89,TP
+cleaned_BenchmarkTest01465.sarif,01465,True,89,True,89,TP
+cleaned_BenchmarkTest01466.sarif,01466,True,89,True,89,TP
+cleaned_BenchmarkTest01467.sarif,01467,False,89,True,89,FP
+cleaned_BenchmarkTest01468.sarif,01468,False,89,True,89,FP
+cleaned_BenchmarkTest01469.sarif,01469,False,89,True,89,FP
+cleaned_BenchmarkTest01470.sarif,01470,True,89,True,89,TP
+cleaned_BenchmarkTest01471.sarif,01471,True,89,True,89,TP
+cleaned_BenchmarkTest01472.sarif,01472,False,89,True,89,FP
+cleaned_BenchmarkTest01473.sarif,01473,True,89,True,89,TP
+cleaned_BenchmarkTest01474.sarif,01474,True,89,True,89,TP
+cleaned_BenchmarkTest01475.sarif,01475,True,89,True,89,TP
+cleaned_BenchmarkTest01476.sarif,01476,True,89,True,89,TP
+cleaned_BenchmarkTest01477.sarif,01477,True,89,True,89,TP
+cleaned_BenchmarkTest01478.sarif,01478,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01479.sarif,01479,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01480.sarif,01480,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01481.sarif,01481,False,327,False,,TN
+cleaned_BenchmarkTest01482.sarif,01482,False,327,False,,TN
+cleaned_BenchmarkTest01483.sarif,01483,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01484.sarif,01484,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01485.sarif,01485,False,327,False,,TN
+cleaned_BenchmarkTest01486.sarif,01486,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01487.sarif,01487,False,327,False,,TN
+cleaned_BenchmarkTest01488.sarif,01488,False,327,False,,TN
+cleaned_BenchmarkTest01489.sarif,01489,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01490.sarif,01490,True,90,True,90,TP
+cleaned_BenchmarkTest01491.sarif,01491,False,90,True,90,FP
+cleaned_BenchmarkTest01492.sarif,01492,False,90,True,90,FP
+cleaned_BenchmarkTest01493.sarif,01493,False,22,True,22,FP
+cleaned_BenchmarkTest01494.sarif,01494,True,22,True,22,TP
+cleaned_BenchmarkTest01495.sarif,01495,True,22,True,22,TP
+cleaned_BenchmarkTest01496.sarif,01496,True,22,True,22,TP
+cleaned_BenchmarkTest01497.sarif,01497,True,22,True,22,TP
+cleaned_BenchmarkTest01498.sarif,01498,True,22,True,22,TP
+cleaned_BenchmarkTest01499.sarif,01499,False,22,True,22,FP
+cleaned_BenchmarkTest01500.sarif,01500,True,22,False,,FN_Missed
+cleaned_BenchmarkTest01501.sarif,01501,True,90,True,90,TP
+cleaned_BenchmarkTest01502.sarif,01502,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01503.sarif,01503,True,328,True,328,TP
+cleaned_BenchmarkTest01504.sarif,01504,True,328,True,328,TP
+cleaned_BenchmarkTest01505.sarif,01505,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01506.sarif,01506,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01507.sarif,01507,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01508.sarif,01508,False,79,False,,TN
+cleaned_BenchmarkTest01509.sarif,01509,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01510.sarif,01510,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01511.sarif,01511,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01512.sarif,01512,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01513.sarif,01513,False,79,False,,TN
+cleaned_BenchmarkTest01514.sarif,01514,False,79,False,,TN
+cleaned_BenchmarkTest01515.sarif,01515,False,79,False,,TN
+cleaned_BenchmarkTest01516.sarif,01516,False,78,False,,TN
+cleaned_BenchmarkTest01517.sarif,01517,True,78,True,78,TP
+cleaned_BenchmarkTest01518.sarif,01518,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01519.sarif,01519,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01520.sarif,01520,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01521.sarif,01521,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01522.sarif,01522,False,614,True,352,FP
+cleaned_BenchmarkTest01523.sarif,01523,False,614,True,352,FP
+cleaned_BenchmarkTest01524.sarif,01524,False,614,True,352,FP
+cleaned_BenchmarkTest01525.sarif,01525,True,79,False,,FN_Missed
+cleaned_BenchmarkTest01526.sarif,01526,False,78,True,78,FP
+cleaned_BenchmarkTest01527.sarif,01527,False,78,True,78,FP
+cleaned_BenchmarkTest01528.sarif,01528,False,78,True,78,FP
+cleaned_BenchmarkTest01529.sarif,01529,False,78,True,78,FP
+cleaned_BenchmarkTest01530.sarif,01530,False,78,True,78,FP
+cleaned_BenchmarkTest01531.sarif,01531,True,78,True,78,TP
+cleaned_BenchmarkTest01532.sarif,01532,False,78,True,78,FP
+cleaned_BenchmarkTest01533.sarif,01533,True,78,True,78,TP
+cleaned_BenchmarkTest01534.sarif,01534,False,330,True,352,FP
+cleaned_BenchmarkTest01535.sarif,01535,False,330,True,352,FP
+cleaned_BenchmarkTest01536.sarif,01536,False,330,True,352,FP
+cleaned_BenchmarkTest01537.sarif,01537,False,330,True,352,FP
+cleaned_BenchmarkTest01538.sarif,01538,False,330,True,352,FP
+cleaned_BenchmarkTest01539.sarif,01539,False,330,True,352,FP
+cleaned_BenchmarkTest01540.sarif,01540,False,330,True,352,FP
+cleaned_BenchmarkTest01541.sarif,01541,False,330,True,352,FP
+cleaned_BenchmarkTest01542.sarif,01542,False,330,True,352,FP
+cleaned_BenchmarkTest01543.sarif,01543,False,330,True,352,FP
+cleaned_BenchmarkTest01544.sarif,01544,False,330,True,352,FP
+cleaned_BenchmarkTest01545.sarif,01545,False,330,True,352,FP
+cleaned_BenchmarkTest01546.sarif,01546,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01547.sarif,01547,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01548.sarif,01548,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01549.sarif,01549,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01550.sarif,01550,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01551.sarif,01551,True,501,False,,FN_Missed
+cleaned_BenchmarkTest01552.sarif,01552,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01553.sarif,01553,False,89,False,,TN
+cleaned_BenchmarkTest01554.sarif,01554,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01555.sarif,01555,False,89,False,,TN
+cleaned_BenchmarkTest01556.sarif,01556,False,89,False,,TN
+cleaned_BenchmarkTest01557.sarif,01557,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01558.sarif,01558,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01559.sarif,01559,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01560.sarif,01560,True,89,False,,FN_Missed
+cleaned_BenchmarkTest01561.sarif,01561,True,643,False,,FN_Missed
+cleaned_BenchmarkTest01562.sarif,01562,False,643,False,,TN
+cleaned_BenchmarkTest01563.sarif,01563,False,327,False,,TN
+cleaned_BenchmarkTest01564.sarif,01564,False,327,False,,TN
+cleaned_BenchmarkTest01565.sarif,01565,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01566.sarif,01566,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01567.sarif,01567,False,327,False,,TN
+cleaned_BenchmarkTest01568.sarif,01568,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01569.sarif,01569,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01570.sarif,01570,False,22,True,22,FP
+cleaned_BenchmarkTest01571.sarif,01571,True,22,True,22,TP
+cleaned_BenchmarkTest01572.sarif,01572,True,22,True,22,TP
+cleaned_BenchmarkTest01573.sarif,01573,False,22,True,22,FP
+cleaned_BenchmarkTest01574.sarif,01574,False,22,True,22,FP
+cleaned_BenchmarkTest01575.sarif,01575,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01576.sarif,01576,False,328,False,,TN
+cleaned_BenchmarkTest01577.sarif,01577,True,328,True,328,TP
+cleaned_BenchmarkTest01578.sarif,01578,False,328,False,,TN
+cleaned_BenchmarkTest01579.sarif,01579,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01580.sarif,01580,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01581.sarif,01581,False,328,False,,TN
+cleaned_BenchmarkTest01582.sarif,01582,False,328,False,,TN
+cleaned_BenchmarkTest01583.sarif,01583,True,79,True,79,TP
+cleaned_BenchmarkTest01584.sarif,01584,True,79,True,79,TP
+cleaned_BenchmarkTest01585.sarif,01585,False,79,True,79,FP
+cleaned_BenchmarkTest01586.sarif,01586,False,79,True,79,FP
+cleaned_BenchmarkTest01587.sarif,01587,True,79,True,79,TP
+cleaned_BenchmarkTest01588.sarif,01588,False,79,True,79,FP
+cleaned_BenchmarkTest01589.sarif,01589,True,79,True,79,TP
+cleaned_BenchmarkTest01590.sarif,01590,True,79,True,79,TP
+cleaned_BenchmarkTest01591.sarif,01591,False,79,True,79,FP
+cleaned_BenchmarkTest01592.sarif,01592,True,79,True,79,TP
+cleaned_BenchmarkTest01593.sarif,01593,False,79,True,79,FP
+cleaned_BenchmarkTest01594.sarif,01594,True,79,True,79,TP
+cleaned_BenchmarkTest01595.sarif,01595,False,79,True,79,FP
+cleaned_BenchmarkTest01596.sarif,01596,True,79,True,79,TP
+cleaned_BenchmarkTest01597.sarif,01597,True,79,True,79,TP
+cleaned_BenchmarkTest01598.sarif,01598,True,79,True,79,TP
+cleaned_BenchmarkTest01599.sarif,01599,False,79,True,79,FP
+cleaned_BenchmarkTest01600.sarif,01600,False,78,True,78,FP
+cleaned_BenchmarkTest01601.sarif,01601,True,78,True,78,TP
+cleaned_BenchmarkTest01602.sarif,01602,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01603.sarif,01603,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01604.sarif,01604,False,614,True,352,FP
+cleaned_BenchmarkTest01605.sarif,01605,False,614,True,352,FP
+cleaned_BenchmarkTest01606.sarif,01606,False,78,True,78,FP
+cleaned_BenchmarkTest01607.sarif,01607,False,78,True,78,FP
+cleaned_BenchmarkTest01608.sarif,01608,False,78,True,78,FP
+cleaned_BenchmarkTest01609.sarif,01609,True,78,True,78,TP
+cleaned_BenchmarkTest01610.sarif,01610,True,78,True,78,TP
+cleaned_BenchmarkTest01611.sarif,01611,False,330,True,352,FP
+cleaned_BenchmarkTest01612.sarif,01612,False,330,True,352,FP
+cleaned_BenchmarkTest01613.sarif,01613,False,330,True,352,FP
+cleaned_BenchmarkTest01614.sarif,01614,False,330,True,352,FP
+cleaned_BenchmarkTest01615.sarif,01615,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01616.sarif,01616,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01617.sarif,01617,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01618.sarif,01618,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01619.sarif,01619,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01620.sarif,01620,True,89,True,89,TP
+cleaned_BenchmarkTest01621.sarif,01621,True,89,True,89,TP
+cleaned_BenchmarkTest01622.sarif,01622,False,89,True,89,FP
+cleaned_BenchmarkTest01623.sarif,01623,True,89,True,89,TP
+cleaned_BenchmarkTest01624.sarif,01624,True,89,True,89,TP
+cleaned_BenchmarkTest01625.sarif,01625,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01626.sarif,01626,True,89,True,89,TP
+cleaned_BenchmarkTest01627.sarif,01627,True,89,True,89,TP
+cleaned_BenchmarkTest01628.sarif,01628,False,89,True,89,FP
+cleaned_BenchmarkTest01629.sarif,01629,False,89,True,89,FP
+cleaned_BenchmarkTest01630.sarif,01630,True,89,True,89,TP
+cleaned_BenchmarkTest01631.sarif,01631,True,89,True,89,TP
+cleaned_BenchmarkTest01632.sarif,01632,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01633.sarif,01633,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01634.sarif,01634,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01635.sarif,01635,False,327,False,,TN
+cleaned_BenchmarkTest01636.sarif,01636,False,327,False,,TN
+cleaned_BenchmarkTest01637.sarif,01637,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01638.sarif,01638,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01639.sarif,01639,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01640.sarif,01640,False,327,False,,TN
+cleaned_BenchmarkTest01641.sarif,01641,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01642.sarif,01642,True,22,True,22,TP
+cleaned_BenchmarkTest01643.sarif,01643,True,22,True,22,TP
+cleaned_BenchmarkTest01644.sarif,01644,False,22,True,22,FP
+cleaned_BenchmarkTest01645.sarif,01645,True,22,True,22,TP
+cleaned_BenchmarkTest01646.sarif,01646,False,22,True,22,FP
+cleaned_BenchmarkTest01647.sarif,01647,True,22,True,22,TP
+cleaned_BenchmarkTest01648.sarif,01648,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01649.sarif,01649,True,328,True,328,TP
+cleaned_BenchmarkTest01650.sarif,01650,True,328,True,328,TP
+cleaned_BenchmarkTest01651.sarif,01651,True,328,True,328,TP
+cleaned_BenchmarkTest01652.sarif,01652,False,328,False,,TN
+cleaned_BenchmarkTest01653.sarif,01653,True,328,True,328,TP
+cleaned_BenchmarkTest01654.sarif,01654,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01655.sarif,01655,False,328,False,,TN
+cleaned_BenchmarkTest01656.sarif,01656,False,328,False,,TN
+cleaned_BenchmarkTest01657.sarif,01657,True,79,True,79,TP
+cleaned_BenchmarkTest01658.sarif,01658,True,79,True,79,TP
+cleaned_BenchmarkTest01659.sarif,01659,False,79,True,79,FP
+cleaned_BenchmarkTest01660.sarif,01660,True,79,True,79,TP
+cleaned_BenchmarkTest01661.sarif,01661,False,79,True,79,FP
+cleaned_BenchmarkTest01662.sarif,01662,True,79,True,79,TP
+cleaned_BenchmarkTest01663.sarif,01663,False,79,True,79,FP
+cleaned_BenchmarkTest01664.sarif,01664,False,79,True,79,FP
+cleaned_BenchmarkTest01665.sarif,01665,True,79,True,79,TP
+cleaned_BenchmarkTest01666.sarif,01666,True,79,True,79,TP
+cleaned_BenchmarkTest01667.sarif,01667,True,79,True,79,TP
+cleaned_BenchmarkTest01668.sarif,01668,False,79,True,79,FP
+cleaned_BenchmarkTest01669.sarif,01669,False,79,True,79,FP
+cleaned_BenchmarkTest01670.sarif,01670,True,79,True,79,TP
+cleaned_BenchmarkTest01671.sarif,01671,False,79,True,79,FP
+cleaned_BenchmarkTest01672.sarif,01672,False,78,True,78,FP
+cleaned_BenchmarkTest01673.sarif,01673,True,78,True,78,TP
+cleaned_BenchmarkTest01674.sarif,01674,True,78,True,78,TP
+cleaned_BenchmarkTest01675.sarif,01675,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01676.sarif,01676,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01677.sarif,01677,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01678.sarif,01678,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01679.sarif,01679,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01680.sarif,01680,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01681.sarif,01681,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01682.sarif,01682,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01683.sarif,01683,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01684.sarif,01684,False,614,True,352,FP
+cleaned_BenchmarkTest01685.sarif,01685,True,78,True,78,TP
+cleaned_BenchmarkTest01686.sarif,01686,False,78,True,78,FP
+cleaned_BenchmarkTest01687.sarif,01687,False,78,True,78,FP
+cleaned_BenchmarkTest01688.sarif,01688,False,78,True,78,FP
+cleaned_BenchmarkTest01689.sarif,01689,True,78,True,78,TP
+cleaned_BenchmarkTest01690.sarif,01690,True,78,True,78,TP
+cleaned_BenchmarkTest01691.sarif,01691,True,78,True,78,TP
+cleaned_BenchmarkTest01692.sarif,01692,False,78,True,78,FP
+cleaned_BenchmarkTest01693.sarif,01693,False,78,True,78,FP
+cleaned_BenchmarkTest01694.sarif,01694,False,330,True,352,FP
+cleaned_BenchmarkTest01695.sarif,01695,False,330,True,352,FP
+cleaned_BenchmarkTest01696.sarif,01696,False,330,True,352,FP
+cleaned_BenchmarkTest01697.sarif,01697,False,330,True,352,FP
+cleaned_BenchmarkTest01698.sarif,01698,False,330,True,352,FP
+cleaned_BenchmarkTest01699.sarif,01699,False,330,True,352,FP
+cleaned_BenchmarkTest01700.sarif,01700,False,330,True,352,FP
+cleaned_BenchmarkTest01701.sarif,01701,False,330,True,352,FP
+cleaned_BenchmarkTest01702.sarif,01702,False,330,True,352,FP
+cleaned_BenchmarkTest01703.sarif,01703,False,330,True,352,FP
+cleaned_BenchmarkTest01704.sarif,01704,False,330,True,352,FP
+cleaned_BenchmarkTest01705.sarif,01705,False,330,True,352,FP
+cleaned_BenchmarkTest01706.sarif,01706,False,330,True,352,FP
+cleaned_BenchmarkTest01707.sarif,01707,False,330,True,352,FP
+cleaned_BenchmarkTest01708.sarif,01708,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01709.sarif,01709,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01710.sarif,01710,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01711.sarif,01711,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01712.sarif,01712,True,89,True,89,TP
+cleaned_BenchmarkTest01713.sarif,01713,False,89,True,89,FP
+cleaned_BenchmarkTest01714.sarif,01714,False,89,True,89,FP
+cleaned_BenchmarkTest01715.sarif,01715,True,89,True,89,TP
+cleaned_BenchmarkTest01716.sarif,01716,True,89,True,89,TP
+cleaned_BenchmarkTest01717.sarif,01717,False,89,True,89,FP
+cleaned_BenchmarkTest01718.sarif,01718,True,89,True,89,TP
+cleaned_BenchmarkTest01719.sarif,01719,False,89,True,89,FP
+cleaned_BenchmarkTest01720.sarif,01720,True,89,True,89,TP
+cleaned_BenchmarkTest01721.sarif,01721,True,89,True,89,TP
+cleaned_BenchmarkTest01722.sarif,01722,False,89,True,89,FP
+cleaned_BenchmarkTest01723.sarif,01723,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest01724.sarif,01724,True,89,True,89,TP
+cleaned_BenchmarkTest01725.sarif,01725,True,89,True,89,TP
+cleaned_BenchmarkTest01726.sarif,01726,True,89,True,89,TP
+cleaned_BenchmarkTest01727.sarif,01727,True,89,True,89,TP
+cleaned_BenchmarkTest01728.sarif,01728,True,89,True,89,TP
+cleaned_BenchmarkTest01729.sarif,01729,False,89,True,89,FP
+cleaned_BenchmarkTest01730.sarif,01730,True,89,True,89,TP
+cleaned_BenchmarkTest01731.sarif,01731,True,89,True,89,TP
+cleaned_BenchmarkTest01732.sarif,01732,False,89,True,89,FP
+cleaned_BenchmarkTest01733.sarif,01733,True,89,True,89,TP
+cleaned_BenchmarkTest01734.sarif,01734,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01735.sarif,01735,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest01736.sarif,01736,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01737.sarif,01737,False,327,False,,TN
+cleaned_BenchmarkTest01738.sarif,01738,False,327,False,,TN
+cleaned_BenchmarkTest01739.sarif,01739,False,327,False,,TN
+cleaned_BenchmarkTest01740.sarif,01740,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01741.sarif,01741,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01742.sarif,01742,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01743.sarif,01743,False,90,True,90,FP
+cleaned_BenchmarkTest01744.sarif,01744,False,22,True,22,FP
+cleaned_BenchmarkTest01745.sarif,01745,False,22,True,22,FP
+cleaned_BenchmarkTest01746.sarif,01746,False,22,True,22,FP
+cleaned_BenchmarkTest01747.sarif,01747,False,22,True,22,FP
+cleaned_BenchmarkTest01748.sarif,01748,False,22,True,22,FP
+cleaned_BenchmarkTest01749.sarif,01749,False,22,True,22,FP
+cleaned_BenchmarkTest01750.sarif,01750,False,22,True,22,FP
+cleaned_BenchmarkTest01751.sarif,01751,False,22,True,22,FP
+cleaned_BenchmarkTest01752.sarif,01752,False,22,True,22,FP
+cleaned_BenchmarkTest01753.sarif,01753,False,90,True,90,FP
+cleaned_BenchmarkTest01754.sarif,01754,False,90,True,90,FP
+cleaned_BenchmarkTest01755.sarif,01755,False,90,True,90,FP
+cleaned_BenchmarkTest01756.sarif,01756,False,90,True,90,FP
+cleaned_BenchmarkTest01757.sarif,01757,True,328,True,328,TP
+cleaned_BenchmarkTest01758.sarif,01758,False,328,False,,TN
+cleaned_BenchmarkTest01759.sarif,01759,False,328,False,,TN
+cleaned_BenchmarkTest01760.sarif,01760,False,328,False,,TN
+cleaned_BenchmarkTest01761.sarif,01761,True,328,True,328,TP
+cleaned_BenchmarkTest01762.sarif,01762,False,328,False,,TN
+cleaned_BenchmarkTest01763.sarif,01763,False,328,False,,TN
+cleaned_BenchmarkTest01764.sarif,01764,False,328,False,,TN
+cleaned_BenchmarkTest01765.sarif,01765,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01766.sarif,01766,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01767.sarif,01767,False,79,False,,TN
+cleaned_BenchmarkTest01768.sarif,01768,False,79,False,,TN
+cleaned_BenchmarkTest01769.sarif,01769,False,79,False,,TN
+cleaned_BenchmarkTest01770.sarif,01770,False,79,False,,TN
+cleaned_BenchmarkTest01771.sarif,01771,False,79,False,,TN
+cleaned_BenchmarkTest01772.sarif,01772,False,79,False,,TN
+cleaned_BenchmarkTest01773.sarif,01773,False,79,False,,TN
+cleaned_BenchmarkTest01774.sarif,01774,False,79,False,,TN
+cleaned_BenchmarkTest01775.sarif,01775,False,79,False,,TN
+cleaned_BenchmarkTest01776.sarif,01776,False,79,False,,TN
+cleaned_BenchmarkTest01777.sarif,01777,False,79,False,,TN
+cleaned_BenchmarkTest01778.sarif,01778,False,78,False,,TN
+cleaned_BenchmarkTest01779.sarif,01779,False,78,False,,TN
+cleaned_BenchmarkTest01780.sarif,01780,False,78,True,78,FP
+cleaned_BenchmarkTest01781.sarif,01781,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01782.sarif,01782,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01783.sarif,01783,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01784.sarif,01784,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01785.sarif,01785,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01786.sarif,01786,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01787.sarif,01787,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01788.sarif,01788,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01789.sarif,01789,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest01790.sarif,01790,False,79,False,,TN
+cleaned_BenchmarkTest01791.sarif,01791,False,78,True,78,FP
+cleaned_BenchmarkTest01792.sarif,01792,False,78,True,78,FP
+cleaned_BenchmarkTest01793.sarif,01793,False,78,True,78,FP
+cleaned_BenchmarkTest01794.sarif,01794,False,78,True,78,FP
+cleaned_BenchmarkTest01795.sarif,01795,False,78,True,78,FP
+cleaned_BenchmarkTest01796.sarif,01796,False,78,True,78,FP
+cleaned_BenchmarkTest01797.sarif,01797,False,330,True,352,FP
+cleaned_BenchmarkTest01798.sarif,01798,False,330,True,352,FP
+cleaned_BenchmarkTest01799.sarif,01799,False,330,True,352,FP
+cleaned_BenchmarkTest01800.sarif,01800,False,330,True,352,FP
+cleaned_BenchmarkTest01801.sarif,01801,False,330,True,352,FP
+cleaned_BenchmarkTest01802.sarif,01802,False,501,False,,TN
+cleaned_BenchmarkTest01803.sarif,01803,False,89,False,,TN
+cleaned_BenchmarkTest01804.sarif,01804,False,89,False,,TN
+cleaned_BenchmarkTest01805.sarif,01805,False,89,False,,TN
+cleaned_BenchmarkTest01806.sarif,01806,False,89,False,,TN
+cleaned_BenchmarkTest01807.sarif,01807,False,89,False,,TN
+cleaned_BenchmarkTest01808.sarif,01808,False,89,False,,TN
+cleaned_BenchmarkTest01809.sarif,01809,False,89,False,,TN
+cleaned_BenchmarkTest01810.sarif,01810,False,89,False,,TN
+cleaned_BenchmarkTest01811.sarif,01811,False,89,False,,TN
+cleaned_BenchmarkTest01812.sarif,01812,False,89,False,,TN
+cleaned_BenchmarkTest01813.sarif,01813,False,89,False,,TN
+cleaned_BenchmarkTest01814.sarif,01814,False,89,False,,TN
+cleaned_BenchmarkTest01815.sarif,01815,False,89,False,,TN
+cleaned_BenchmarkTest01816.sarif,01816,False,89,False,,TN
+cleaned_BenchmarkTest01817.sarif,01817,False,89,False,,TN
+cleaned_BenchmarkTest01818.sarif,01818,False,89,False,,TN
+cleaned_BenchmarkTest01819.sarif,01819,False,89,False,,TN
+cleaned_BenchmarkTest01820.sarif,01820,False,89,False,,TN
+cleaned_BenchmarkTest01821.sarif,01821,False,643,False,,TN
+cleaned_BenchmarkTest01822.sarif,01822,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest01823.sarif,01823,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest01824.sarif,01824,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest01825.sarif,01825,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest01826.sarif,01826,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest01827.sarif,01827,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest01828.sarif,01828,False,327,True,"352, 1004",FP
+cleaned_BenchmarkTest01829.sarif,01829,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest01830.sarif,01830,True,327,True,"326, 352, 1004",FN_WrongCWE
+cleaned_BenchmarkTest01831.sarif,01831,True,90,True,"79, 90, 352, 1004",TP
+cleaned_BenchmarkTest01832.sarif,01832,True,90,True,"79, 90, 352, 1004",TP
+cleaned_BenchmarkTest01833.sarif,01833,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest01834.sarif,01834,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest01835.sarif,01835,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest01836.sarif,01836,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest01837.sarif,01837,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest01838.sarif,01838,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest01839.sarif,01839,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest01840.sarif,01840,True,22,True,"22, 352, 1004",TP
+cleaned_BenchmarkTest01841.sarif,01841,False,22,True,"22, 352, 1004",FP
+cleaned_BenchmarkTest01842.sarif,01842,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01843.sarif,01843,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01844.sarif,01844,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest01845.sarif,01845,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest01846.sarif,01846,True,328,True,"328, 352, 1004",TP
+cleaned_BenchmarkTest01847.sarif,01847,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest01848.sarif,01848,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest01849.sarif,01849,False,328,True,"352, 1004",FP
+cleaned_BenchmarkTest01850.sarif,01850,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest01851.sarif,01851,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest01852.sarif,01852,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest01853.sarif,01853,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01854.sarif,01854,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01855.sarif,01855,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01856.sarif,01856,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01857.sarif,01857,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01858.sarif,01858,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01859.sarif,01859,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01860.sarif,01860,True,330,True,"330, 352, 1004",TP
+cleaned_BenchmarkTest01861.sarif,01861,True,614,True,"352, 614, 1004",TP
+cleaned_BenchmarkTest01862.sarif,01862,False,614,True,"352, 1004",FP
+cleaned_BenchmarkTest01863.sarif,01863,False,614,True,"352, 1004",FP
+cleaned_BenchmarkTest01864.sarif,01864,True,78,True,"78, 352, 1004",TP
+cleaned_BenchmarkTest01865.sarif,01865,False,78,True,"78, 352, 1004",FP
+cleaned_BenchmarkTest01866.sarif,01866,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01867.sarif,01867,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01868.sarif,01868,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01869.sarif,01869,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01870.sarif,01870,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01871.sarif,01871,False,330,True,"352, 1004",FP
+cleaned_BenchmarkTest01872.sarif,01872,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest01873.sarif,01873,False,501,True,"79, 352, 501, 1004",FP
+cleaned_BenchmarkTest01874.sarif,01874,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest01875.sarif,01875,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest01876.sarif,01876,True,501,True,"79, 352, 501, 1004",TP
+cleaned_BenchmarkTest01877.sarif,01877,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01878.sarif,01878,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01879.sarif,01879,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01880.sarif,01880,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01881.sarif,01881,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01882.sarif,01882,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01883.sarif,01883,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01884.sarif,01884,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01885.sarif,01885,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01886.sarif,01886,False,89,True,"89, 352, 1004",FP
+cleaned_BenchmarkTest01887.sarif,01887,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01888.sarif,01888,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01889.sarif,01889,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01890.sarif,01890,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01891.sarif,01891,True,89,True,"89, 352, 1004",TP
+cleaned_BenchmarkTest01892.sarif,01892,True,643,True,"79, 352, 643, 1004",TP
+cleaned_BenchmarkTest01893.sarif,01893,False,643,True,"79, 352, 643, 1004",FP
+cleaned_BenchmarkTest01894.sarif,01894,True,643,True,"79, 352, 643, 1004",TP
+cleaned_BenchmarkTest01895.sarif,01895,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01896.sarif,01896,False,327,False,,TN
+cleaned_BenchmarkTest01897.sarif,01897,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01898.sarif,01898,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01899.sarif,01899,False,327,False,,TN
+cleaned_BenchmarkTest01900.sarif,01900,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01901.sarif,01901,False,327,False,,TN
+cleaned_BenchmarkTest01902.sarif,01902,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest01903.sarif,01903,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01904.sarif,01904,True,22,True,22,TP
+cleaned_BenchmarkTest01905.sarif,01905,False,22,True,22,FP
+cleaned_BenchmarkTest01906.sarif,01906,True,22,True,22,TP
+cleaned_BenchmarkTest01907.sarif,01907,True,22,True,22,TP
+cleaned_BenchmarkTest01908.sarif,01908,True,22,False,,FN_Missed
+cleaned_BenchmarkTest01909.sarif,01909,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest01910.sarif,01910,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01911.sarif,01911,True,328,True,328,TP
+cleaned_BenchmarkTest01912.sarif,01912,False,328,False,,TN
+cleaned_BenchmarkTest01913.sarif,01913,False,328,False,,TN
+cleaned_BenchmarkTest01914.sarif,01914,False,79,True,79,FP
+cleaned_BenchmarkTest01915.sarif,01915,False,79,True,79,FP
+cleaned_BenchmarkTest01916.sarif,01916,True,79,True,79,TP
+cleaned_BenchmarkTest01917.sarif,01917,False,79,True,79,FP
+cleaned_BenchmarkTest01918.sarif,01918,False,79,True,79,FP
+cleaned_BenchmarkTest01919.sarif,01919,True,79,True,79,TP
+cleaned_BenchmarkTest01920.sarif,01920,True,79,True,79,TP
+cleaned_BenchmarkTest01921.sarif,01921,True,79,True,79,TP
+cleaned_BenchmarkTest01922.sarif,01922,True,79,True,79,TP
+cleaned_BenchmarkTest01923.sarif,01923,True,79,True,79,TP
+cleaned_BenchmarkTest01924.sarif,01924,False,79,True,79,FP
+cleaned_BenchmarkTest01925.sarif,01925,True,79,True,79,TP
+cleaned_BenchmarkTest01926.sarif,01926,True,79,True,79,TP
+cleaned_BenchmarkTest01927.sarif,01927,True,79,True,79,TP
+cleaned_BenchmarkTest01928.sarif,01928,True,78,True,78,TP
+cleaned_BenchmarkTest01929.sarif,01929,True,78,True,78,TP
+cleaned_BenchmarkTest01930.sarif,01930,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01931.sarif,01931,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01932.sarif,01932,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01933.sarif,01933,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01934.sarif,01934,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01935.sarif,01935,False,614,True,352,FP
+cleaned_BenchmarkTest01936.sarif,01936,True,78,True,78,TP
+cleaned_BenchmarkTest01937.sarif,01937,False,78,True,78,FP
+cleaned_BenchmarkTest01938.sarif,01938,True,78,True,78,TP
+cleaned_BenchmarkTest01939.sarif,01939,False,78,True,78,FP
+cleaned_BenchmarkTest01940.sarif,01940,True,78,True,78,TP
+cleaned_BenchmarkTest01941.sarif,01941,False,78,True,78,FP
+cleaned_BenchmarkTest01942.sarif,01942,True,78,True,78,TP
+cleaned_BenchmarkTest01943.sarif,01943,False,78,True,78,FP
+cleaned_BenchmarkTest01944.sarif,01944,True,78,True,78,TP
+cleaned_BenchmarkTest01945.sarif,01945,False,330,True,352,FP
+cleaned_BenchmarkTest01946.sarif,01946,False,330,True,352,FP
+cleaned_BenchmarkTest01947.sarif,01947,False,330,True,352,FP
+cleaned_BenchmarkTest01948.sarif,01948,False,330,True,352,FP
+cleaned_BenchmarkTest01949.sarif,01949,False,330,True,352,FP
+cleaned_BenchmarkTest01950.sarif,01950,False,330,True,352,FP
+cleaned_BenchmarkTest01951.sarif,01951,False,330,True,352,FP
+cleaned_BenchmarkTest01952.sarif,01952,False,330,True,352,FP
+cleaned_BenchmarkTest01953.sarif,01953,False,330,True,352,FP
+cleaned_BenchmarkTest01954.sarif,01954,False,330,True,352,FP
+cleaned_BenchmarkTest01955.sarif,01955,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01956.sarif,01956,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01957.sarif,01957,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01958.sarif,01958,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01959.sarif,01959,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest01960.sarif,01960,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest01961.sarif,01961,False,89,True,89,FP
+cleaned_BenchmarkTest01962.sarif,01962,True,89,True,89,TP
+cleaned_BenchmarkTest01963.sarif,01963,True,89,True,89,TP
+cleaned_BenchmarkTest01964.sarif,01964,True,89,True,89,TP
+cleaned_BenchmarkTest01965.sarif,01965,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest01966.sarif,01966,False,89,True,89,FP
+cleaned_BenchmarkTest01967.sarif,01967,False,89,True,89,FP
+cleaned_BenchmarkTest01968.sarif,01968,False,89,True,89,FP
+cleaned_BenchmarkTest01969.sarif,01969,False,89,True,89,FP
+cleaned_BenchmarkTest01970.sarif,01970,True,89,True,89,TP
+cleaned_BenchmarkTest01971.sarif,01971,True,89,True,89,TP
+cleaned_BenchmarkTest01972.sarif,01972,True,89,True,89,TP
+cleaned_BenchmarkTest01973.sarif,01973,False,89,True,89,FP
+cleaned_BenchmarkTest01974.sarif,01974,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest01975.sarif,01975,False,327,False,,TN
+cleaned_BenchmarkTest01976.sarif,01976,False,327,False,,TN
+cleaned_BenchmarkTest01977.sarif,01977,False,327,False,,TN
+cleaned_BenchmarkTest01978.sarif,01978,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01979.sarif,01979,False,327,False,,TN
+cleaned_BenchmarkTest01980.sarif,01980,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01981.sarif,01981,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest01982.sarif,01982,False,327,False,,TN
+cleaned_BenchmarkTest01983.sarif,01983,True,22,True,22,TP
+cleaned_BenchmarkTest01984.sarif,01984,False,22,True,22,FP
+cleaned_BenchmarkTest01985.sarif,01985,True,22,True,22,TP
+cleaned_BenchmarkTest01986.sarif,01986,False,22,True,22,FP
+cleaned_BenchmarkTest01987.sarif,01987,True,22,True,22,TP
+cleaned_BenchmarkTest01988.sarif,01988,True,22,True,22,TP
+cleaned_BenchmarkTest01989.sarif,01989,True,22,True,22,TP
+cleaned_BenchmarkTest01990.sarif,01990,False,22,True,22,FP
+cleaned_BenchmarkTest01991.sarif,01991,False,22,False,,TN
+cleaned_BenchmarkTest01992.sarif,01992,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest01993.sarif,01993,False,328,False,,TN
+cleaned_BenchmarkTest01994.sarif,01994,False,328,False,,TN
+cleaned_BenchmarkTest01995.sarif,01995,False,328,False,,TN
+cleaned_BenchmarkTest01996.sarif,01996,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01997.sarif,01997,True,328,False,,FN_Missed
+cleaned_BenchmarkTest01998.sarif,01998,False,328,False,,TN
+cleaned_BenchmarkTest01999.sarif,01999,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02000.sarif,02000,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02001.sarif,02001,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02002.sarif,02002,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02003.sarif,02003,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02004.sarif,02004,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02005.sarif,02005,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02006.sarif,02006,False,614,True,352,FP
+cleaned_BenchmarkTest02007.sarif,02007,False,330,True,352,FP
+cleaned_BenchmarkTest02008.sarif,02008,False,330,True,352,FP
+cleaned_BenchmarkTest02009.sarif,02009,False,330,True,352,FP
+cleaned_BenchmarkTest02010.sarif,02010,False,330,True,352,FP
+cleaned_BenchmarkTest02011.sarif,02011,False,330,True,352,FP
+cleaned_BenchmarkTest02012.sarif,02012,False,330,True,352,FP
+cleaned_BenchmarkTest02013.sarif,02013,False,330,True,352,FP
+cleaned_BenchmarkTest02014.sarif,02014,False,330,True,352,FP
+cleaned_BenchmarkTest02015.sarif,02015,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02016.sarif,02016,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02017.sarif,02017,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02018.sarif,02018,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02019.sarif,02019,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02020.sarif,02020,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02021.sarif,02021,False,327,False,,TN
+cleaned_BenchmarkTest02022.sarif,02022,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02023.sarif,02023,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02024.sarif,02024,False,327,False,,TN
+cleaned_BenchmarkTest02025.sarif,02025,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02026.sarif,02026,False,22,True,22,FP
+cleaned_BenchmarkTest02027.sarif,02027,True,22,True,22,TP
+cleaned_BenchmarkTest02028.sarif,02028,False,22,True,22,FP
+cleaned_BenchmarkTest02029.sarif,02029,False,22,True,22,FP
+cleaned_BenchmarkTest02030.sarif,02030,False,22,True,22,FP
+cleaned_BenchmarkTest02031.sarif,02031,False,22,True,22,FP
+cleaned_BenchmarkTest02032.sarif,02032,True,22,True,22,TP
+cleaned_BenchmarkTest02033.sarif,02033,False,22,True,22,FP
+cleaned_BenchmarkTest02034.sarif,02034,True,22,True,22,TP
+cleaned_BenchmarkTest02035.sarif,02035,False,22,False,,TN
+cleaned_BenchmarkTest02036.sarif,02036,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02037.sarif,02037,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02038.sarif,02038,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02039.sarif,02039,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02040.sarif,02040,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02041.sarif,02041,False,328,False,,TN
+cleaned_BenchmarkTest02042.sarif,02042,True,328,True,328,TP
+cleaned_BenchmarkTest02043.sarif,02043,False,328,False,,TN
+cleaned_BenchmarkTest02044.sarif,02044,False,328,False,,TN
+cleaned_BenchmarkTest02045.sarif,02045,False,79,True,79,FP
+cleaned_BenchmarkTest02046.sarif,02046,True,79,True,79,TP
+cleaned_BenchmarkTest02047.sarif,02047,True,79,True,79,TP
+cleaned_BenchmarkTest02048.sarif,02048,False,79,True,79,FP
+cleaned_BenchmarkTest02049.sarif,02049,False,79,True,79,FP
+cleaned_BenchmarkTest02050.sarif,02050,True,79,True,79,TP
+cleaned_BenchmarkTest02051.sarif,02051,True,79,True,79,TP
+cleaned_BenchmarkTest02052.sarif,02052,False,79,True,79,FP
+cleaned_BenchmarkTest02053.sarif,02053,False,79,True,79,FP
+cleaned_BenchmarkTest02054.sarif,02054,True,79,True,79,TP
+cleaned_BenchmarkTest02055.sarif,02055,True,79,True,79,TP
+cleaned_BenchmarkTest02056.sarif,02056,True,79,True,79,TP
+cleaned_BenchmarkTest02057.sarif,02057,True,79,True,79,TP
+cleaned_BenchmarkTest02058.sarif,02058,False,78,True,78,FP
+cleaned_BenchmarkTest02059.sarif,02059,True,78,True,78,TP
+cleaned_BenchmarkTest02060.sarif,02060,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02061.sarif,02061,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02062.sarif,02062,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02063.sarif,02063,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02064.sarif,02064,False,614,True,352,FP
+cleaned_BenchmarkTest02065.sarif,02065,False,614,True,352,FP
+cleaned_BenchmarkTest02066.sarif,02066,False,614,True,352,FP
+cleaned_BenchmarkTest02067.sarif,02067,False,78,True,78,FP
+cleaned_BenchmarkTest02068.sarif,02068,False,78,True,78,FP
+cleaned_BenchmarkTest02069.sarif,02069,False,78,True,78,FP
+cleaned_BenchmarkTest02070.sarif,02070,True,78,True,78,TP
+cleaned_BenchmarkTest02071.sarif,02071,False,330,True,352,FP
+cleaned_BenchmarkTest02072.sarif,02072,False,330,True,352,FP
+cleaned_BenchmarkTest02073.sarif,02073,False,330,True,352,FP
+cleaned_BenchmarkTest02074.sarif,02074,False,330,True,352,FP
+cleaned_BenchmarkTest02075.sarif,02075,False,330,True,352,FP
+cleaned_BenchmarkTest02076.sarif,02076,False,330,True,352,FP
+cleaned_BenchmarkTest02077.sarif,02077,False,330,True,352,FP
+cleaned_BenchmarkTest02078.sarif,02078,False,330,True,352,FP
+cleaned_BenchmarkTest02079.sarif,02079,False,330,True,352,FP
+cleaned_BenchmarkTest02080.sarif,02080,False,330,True,352,FP
+cleaned_BenchmarkTest02081.sarif,02081,False,330,True,352,FP
+cleaned_BenchmarkTest02082.sarif,02082,False,330,True,352,FP
+cleaned_BenchmarkTest02083.sarif,02083,False,330,True,352,FP
+cleaned_BenchmarkTest02084.sarif,02084,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02085.sarif,02085,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest02086.sarif,02086,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest02087.sarif,02087,True,89,True,89,TP
+cleaned_BenchmarkTest02088.sarif,02088,True,89,True,89,TP
+cleaned_BenchmarkTest02089.sarif,02089,False,89,True,89,FP
+cleaned_BenchmarkTest02090.sarif,02090,True,89,True,89,TP
+cleaned_BenchmarkTest02091.sarif,02091,True,89,True,89,TP
+cleaned_BenchmarkTest02092.sarif,02092,True,89,True,89,TP
+cleaned_BenchmarkTest02093.sarif,02093,False,89,True,89,FP
+cleaned_BenchmarkTest02094.sarif,02094,True,89,True,89,TP
+cleaned_BenchmarkTest02095.sarif,02095,False,89,True,89,FP
+cleaned_BenchmarkTest02096.sarif,02096,True,89,True,89,TP
+cleaned_BenchmarkTest02097.sarif,02097,False,89,True,89,FP
+cleaned_BenchmarkTest02098.sarif,02098,False,89,True,89,FP
+cleaned_BenchmarkTest02099.sarif,02099,True,89,True,89,TP
+cleaned_BenchmarkTest02100.sarif,02100,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest02101.sarif,02101,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02102.sarif,02102,False,327,False,,TN
+cleaned_BenchmarkTest02103.sarif,02103,False,327,False,,TN
+cleaned_BenchmarkTest02104.sarif,02104,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02105.sarif,02105,True,22,True,22,TP
+cleaned_BenchmarkTest02106.sarif,02106,True,22,True,22,TP
+cleaned_BenchmarkTest02107.sarif,02107,False,22,True,22,FP
+cleaned_BenchmarkTest02108.sarif,02108,False,22,True,22,FP
+cleaned_BenchmarkTest02109.sarif,02109,True,22,True,22,TP
+cleaned_BenchmarkTest02110.sarif,02110,False,22,True,22,FP
+cleaned_BenchmarkTest02111.sarif,02111,False,22,True,22,FP
+cleaned_BenchmarkTest02112.sarif,02112,True,22,True,22,TP
+cleaned_BenchmarkTest02113.sarif,02113,True,22,False,,FN_Missed
+cleaned_BenchmarkTest02114.sarif,02114,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02115.sarif,02115,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02116.sarif,02116,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02117.sarif,02117,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02118.sarif,02118,True,328,True,328,TP
+cleaned_BenchmarkTest02119.sarif,02119,False,328,False,,TN
+cleaned_BenchmarkTest02120.sarif,02120,False,328,False,,TN
+cleaned_BenchmarkTest02121.sarif,02121,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02122.sarif,02122,False,79,True,79,FP
+cleaned_BenchmarkTest02123.sarif,02123,True,79,True,79,TP
+cleaned_BenchmarkTest02124.sarif,02124,True,79,True,79,TP
+cleaned_BenchmarkTest02125.sarif,02125,False,79,True,79,FP
+cleaned_BenchmarkTest02126.sarif,02126,True,79,True,79,TP
+cleaned_BenchmarkTest02127.sarif,02127,True,79,True,79,TP
+cleaned_BenchmarkTest02128.sarif,02128,True,79,True,79,TP
+cleaned_BenchmarkTest02129.sarif,02129,True,79,True,79,TP
+cleaned_BenchmarkTest02130.sarif,02130,True,79,True,79,TP
+cleaned_BenchmarkTest02131.sarif,02131,True,79,True,79,TP
+cleaned_BenchmarkTest02132.sarif,02132,True,79,True,79,TP
+cleaned_BenchmarkTest02133.sarif,02133,True,79,True,79,TP
+cleaned_BenchmarkTest02134.sarif,02134,True,79,True,79,TP
+cleaned_BenchmarkTest02135.sarif,02135,False,79,True,79,FP
+cleaned_BenchmarkTest02136.sarif,02136,True,79,True,79,TP
+cleaned_BenchmarkTest02137.sarif,02137,True,78,True,78,TP
+cleaned_BenchmarkTest02138.sarif,02138,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02139.sarif,02139,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02140.sarif,02140,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02141.sarif,02141,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02142.sarif,02142,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02143.sarif,02143,False,614,True,352,FP
+cleaned_BenchmarkTest02144.sarif,02144,False,614,True,352,FP
+cleaned_BenchmarkTest02145.sarif,02145,True,79,True,79,TP
+cleaned_BenchmarkTest02146.sarif,02146,True,78,True,78,TP
+cleaned_BenchmarkTest02147.sarif,02147,True,78,True,78,TP
+cleaned_BenchmarkTest02148.sarif,02148,False,78,True,78,FP
+cleaned_BenchmarkTest02149.sarif,02149,False,78,True,78,FP
+cleaned_BenchmarkTest02150.sarif,02150,True,78,True,78,TP
+cleaned_BenchmarkTest02151.sarif,02151,True,78,True,78,TP
+cleaned_BenchmarkTest02152.sarif,02152,True,78,True,78,TP
+cleaned_BenchmarkTest02153.sarif,02153,False,78,True,78,FP
+cleaned_BenchmarkTest02154.sarif,02154,True,78,True,78,TP
+cleaned_BenchmarkTest02155.sarif,02155,True,78,True,78,TP
+cleaned_BenchmarkTest02156.sarif,02156,False,78,True,78,FP
+cleaned_BenchmarkTest02157.sarif,02157,False,330,True,352,FP
+cleaned_BenchmarkTest02158.sarif,02158,False,330,True,352,FP
+cleaned_BenchmarkTest02159.sarif,02159,False,330,True,352,FP
+cleaned_BenchmarkTest02160.sarif,02160,False,330,True,352,FP
+cleaned_BenchmarkTest02161.sarif,02161,False,330,True,352,FP
+cleaned_BenchmarkTest02162.sarif,02162,False,330,True,352,FP
+cleaned_BenchmarkTest02163.sarif,02163,False,330,True,352,FP
+cleaned_BenchmarkTest02164.sarif,02164,False,330,True,352,FP
+cleaned_BenchmarkTest02165.sarif,02165,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02166.sarif,02166,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest02167.sarif,02167,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02168.sarif,02168,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest02169.sarif,02169,True,89,True,89,TP
+cleaned_BenchmarkTest02170.sarif,02170,True,89,True,89,TP
+cleaned_BenchmarkTest02171.sarif,02171,True,89,True,89,TP
+cleaned_BenchmarkTest02172.sarif,02172,False,89,True,89,FP
+cleaned_BenchmarkTest02173.sarif,02173,False,89,True,89,FP
+cleaned_BenchmarkTest02174.sarif,02174,False,89,True,89,FP
+cleaned_BenchmarkTest02175.sarif,02175,False,89,True,89,FP
+cleaned_BenchmarkTest02176.sarif,02176,False,89,True,89,FP
+cleaned_BenchmarkTest02177.sarif,02177,True,89,True,89,TP
+cleaned_BenchmarkTest02178.sarif,02178,True,89,True,89,TP
+cleaned_BenchmarkTest02179.sarif,02179,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest02180.sarif,02180,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest02181.sarif,02181,True,89,True,89,TP
+cleaned_BenchmarkTest02182.sarif,02182,True,89,True,89,TP
+cleaned_BenchmarkTest02183.sarif,02183,False,89,True,89,FP
+cleaned_BenchmarkTest02184.sarif,02184,False,89,True,89,FP
+cleaned_BenchmarkTest02185.sarif,02185,False,89,True,89,FP
+cleaned_BenchmarkTest02186.sarif,02186,True,89,True,89,TP
+cleaned_BenchmarkTest02187.sarif,02187,True,89,True,89,TP
+cleaned_BenchmarkTest02188.sarif,02188,False,89,True,89,FP
+cleaned_BenchmarkTest02189.sarif,02189,True,643,True,"79, 643",TP
+cleaned_BenchmarkTest02190.sarif,02190,False,327,False,,TN
+cleaned_BenchmarkTest02191.sarif,02191,False,327,False,,TN
+cleaned_BenchmarkTest02192.sarif,02192,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02193.sarif,02193,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02194.sarif,02194,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02195.sarif,02195,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02196.sarif,02196,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02197.sarif,02197,True,22,True,22,TP
+cleaned_BenchmarkTest02198.sarif,02198,True,22,True,22,TP
+cleaned_BenchmarkTest02199.sarif,02199,True,22,True,22,TP
+cleaned_BenchmarkTest02200.sarif,02200,False,22,True,22,FP
+cleaned_BenchmarkTest02201.sarif,02201,False,22,True,22,FP
+cleaned_BenchmarkTest02202.sarif,02202,False,22,True,22,FP
+cleaned_BenchmarkTest02203.sarif,02203,False,22,True,22,FP
+cleaned_BenchmarkTest02204.sarif,02204,False,22,True,22,FP
+cleaned_BenchmarkTest02205.sarif,02205,True,22,True,22,TP
+cleaned_BenchmarkTest02206.sarif,02206,False,22,False,,TN
+cleaned_BenchmarkTest02207.sarif,02207,False,22,False,,TN
+cleaned_BenchmarkTest02208.sarif,02208,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02209.sarif,02209,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02210.sarif,02210,False,328,False,,TN
+cleaned_BenchmarkTest02211.sarif,02211,True,328,True,328,TP
+cleaned_BenchmarkTest02212.sarif,02212,True,328,True,328,TP
+cleaned_BenchmarkTest02213.sarif,02213,True,328,True,328,TP
+cleaned_BenchmarkTest02214.sarif,02214,False,328,False,,TN
+cleaned_BenchmarkTest02215.sarif,02215,False,328,False,,TN
+cleaned_BenchmarkTest02216.sarif,02216,False,328,False,,TN
+cleaned_BenchmarkTest02217.sarif,02217,True,328,True,328,TP
+cleaned_BenchmarkTest02218.sarif,02218,False,328,False,,TN
+cleaned_BenchmarkTest02219.sarif,02219,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02220.sarif,02220,False,328,False,,TN
+cleaned_BenchmarkTest02221.sarif,02221,True,79,True,79,TP
+cleaned_BenchmarkTest02222.sarif,02222,False,79,True,79,FP
+cleaned_BenchmarkTest02223.sarif,02223,True,79,True,79,TP
+cleaned_BenchmarkTest02224.sarif,02224,True,79,True,79,TP
+cleaned_BenchmarkTest02225.sarif,02225,True,79,True,79,TP
+cleaned_BenchmarkTest02226.sarif,02226,False,79,True,79,FP
+cleaned_BenchmarkTest02227.sarif,02227,True,79,True,79,TP
+cleaned_BenchmarkTest02228.sarif,02228,True,79,True,79,TP
+cleaned_BenchmarkTest02229.sarif,02229,False,79,True,79,FP
+cleaned_BenchmarkTest02230.sarif,02230,True,79,True,79,TP
+cleaned_BenchmarkTest02231.sarif,02231,False,79,True,79,FP
+cleaned_BenchmarkTest02232.sarif,02232,True,79,True,79,TP
+cleaned_BenchmarkTest02233.sarif,02233,False,79,True,79,FP
+cleaned_BenchmarkTest02234.sarif,02234,True,79,True,79,TP
+cleaned_BenchmarkTest02235.sarif,02235,False,79,True,79,FP
+cleaned_BenchmarkTest02236.sarif,02236,False,79,True,79,FP
+cleaned_BenchmarkTest02237.sarif,02237,False,79,True,79,FP
+cleaned_BenchmarkTest02238.sarif,02238,False,79,True,79,FP
+cleaned_BenchmarkTest02239.sarif,02239,False,79,True,79,FP
+cleaned_BenchmarkTest02240.sarif,02240,False,79,True,79,FP
+cleaned_BenchmarkTest02241.sarif,02241,True,79,True,79,TP
+cleaned_BenchmarkTest02242.sarif,02242,False,78,True,78,FP
+cleaned_BenchmarkTest02243.sarif,02243,True,78,True,78,TP
+cleaned_BenchmarkTest02244.sarif,02244,True,78,True,78,TP
+cleaned_BenchmarkTest02245.sarif,02245,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02246.sarif,02246,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02247.sarif,02247,False,614,True,352,FP
+cleaned_BenchmarkTest02248.sarif,02248,False,614,True,352,FP
+cleaned_BenchmarkTest02249.sarif,02249,True,78,True,78,TP
+cleaned_BenchmarkTest02250.sarif,02250,True,78,True,78,TP
+cleaned_BenchmarkTest02251.sarif,02251,True,78,True,78,TP
+cleaned_BenchmarkTest02252.sarif,02252,False,78,True,78,FP
+cleaned_BenchmarkTest02253.sarif,02253,False,78,True,78,FP
+cleaned_BenchmarkTest02254.sarif,02254,False,330,True,352,FP
+cleaned_BenchmarkTest02255.sarif,02255,False,330,True,352,FP
+cleaned_BenchmarkTest02256.sarif,02256,False,330,True,352,FP
+cleaned_BenchmarkTest02257.sarif,02257,False,330,True,352,FP
+cleaned_BenchmarkTest02258.sarif,02258,False,330,True,352,FP
+cleaned_BenchmarkTest02259.sarif,02259,False,330,True,352,FP
+cleaned_BenchmarkTest02260.sarif,02260,False,330,True,352,FP
+cleaned_BenchmarkTest02261.sarif,02261,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02262.sarif,02262,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02263.sarif,02263,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02264.sarif,02264,True,89,True,89,TP
+cleaned_BenchmarkTest02265.sarif,02265,False,89,True,89,FP
+cleaned_BenchmarkTest02266.sarif,02266,False,89,True,89,FP
+cleaned_BenchmarkTest02267.sarif,02267,False,89,True,89,FP
+cleaned_BenchmarkTest02268.sarif,02268,False,89,True,89,FP
+cleaned_BenchmarkTest02269.sarif,02269,True,89,True,89,TP
+cleaned_BenchmarkTest02270.sarif,02270,True,89,True,89,TP
+cleaned_BenchmarkTest02271.sarif,02271,False,89,True,89,FP
+cleaned_BenchmarkTest02272.sarif,02272,True,89,True,89,TP
+cleaned_BenchmarkTest02273.sarif,02273,True,89,True,89,TP
+cleaned_BenchmarkTest02274.sarif,02274,False,89,True,89,FP
+cleaned_BenchmarkTest02275.sarif,02275,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest02276.sarif,02276,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest02277.sarif,02277,True,89,True,89,TP
+cleaned_BenchmarkTest02278.sarif,02278,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest02279.sarif,02279,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest02280.sarif,02280,False,89,True,"79, 89",FP
+cleaned_BenchmarkTest02281.sarif,02281,True,89,True,89,TP
+cleaned_BenchmarkTest02282.sarif,02282,False,89,True,89,FP
+cleaned_BenchmarkTest02283.sarif,02283,False,89,True,89,FP
+cleaned_BenchmarkTest02284.sarif,02284,True,89,True,89,TP
+cleaned_BenchmarkTest02285.sarif,02285,False,89,True,89,FP
+cleaned_BenchmarkTest02286.sarif,02286,True,89,True,89,TP
+cleaned_BenchmarkTest02287.sarif,02287,True,89,True,89,TP
+cleaned_BenchmarkTest02288.sarif,02288,True,89,True,89,TP
+cleaned_BenchmarkTest02289.sarif,02289,False,327,False,,TN
+cleaned_BenchmarkTest02290.sarif,02290,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02291.sarif,02291,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02292.sarif,02292,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02293.sarif,02293,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02294.sarif,02294,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02295.sarif,02295,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02296.sarif,02296,False,327,False,,TN
+cleaned_BenchmarkTest02297.sarif,02297,False,327,False,,TN
+cleaned_BenchmarkTest02298.sarif,02298,False,327,False,,TN
+cleaned_BenchmarkTest02299.sarif,02299,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02300.sarif,02300,False,22,True,22,FP
+cleaned_BenchmarkTest02301.sarif,02301,False,22,True,22,FP
+cleaned_BenchmarkTest02302.sarif,02302,True,22,True,22,TP
+cleaned_BenchmarkTest02303.sarif,02303,True,22,True,22,TP
+cleaned_BenchmarkTest02304.sarif,02304,True,22,True,22,TP
+cleaned_BenchmarkTest02305.sarif,02305,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02306.sarif,02306,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02307.sarif,02307,True,328,True,328,TP
+cleaned_BenchmarkTest02308.sarif,02308,True,328,True,328,TP
+cleaned_BenchmarkTest02309.sarif,02309,False,328,False,,TN
+cleaned_BenchmarkTest02310.sarif,02310,False,328,False,,TN
+cleaned_BenchmarkTest02311.sarif,02311,True,328,True,328,TP
+cleaned_BenchmarkTest02312.sarif,02312,False,328,False,,TN
+cleaned_BenchmarkTest02313.sarif,02313,False,79,True,79,FP
+cleaned_BenchmarkTest02314.sarif,02314,True,79,True,79,TP
+cleaned_BenchmarkTest02315.sarif,02315,True,79,True,79,TP
+cleaned_BenchmarkTest02316.sarif,02316,True,79,True,79,TP
+cleaned_BenchmarkTest02317.sarif,02317,True,79,True,79,TP
+cleaned_BenchmarkTest02318.sarif,02318,False,79,True,79,FP
+cleaned_BenchmarkTest02319.sarif,02319,False,79,True,79,FP
+cleaned_BenchmarkTest02320.sarif,02320,False,79,True,79,FP
+cleaned_BenchmarkTest02321.sarif,02321,True,79,True,79,TP
+cleaned_BenchmarkTest02322.sarif,02322,True,79,True,79,TP
+cleaned_BenchmarkTest02323.sarif,02323,True,79,True,79,TP
+cleaned_BenchmarkTest02324.sarif,02324,True,79,True,79,TP
+cleaned_BenchmarkTest02325.sarif,02325,False,79,True,79,FP
+cleaned_BenchmarkTest02326.sarif,02326,True,79,True,79,TP
+cleaned_BenchmarkTest02327.sarif,02327,True,79,True,79,TP
+cleaned_BenchmarkTest02328.sarif,02328,True,79,True,79,TP
+cleaned_BenchmarkTest02329.sarif,02329,False,79,True,79,FP
+cleaned_BenchmarkTest02330.sarif,02330,False,79,True,79,FP
+cleaned_BenchmarkTest02331.sarif,02331,False,79,True,79,FP
+cleaned_BenchmarkTest02332.sarif,02332,True,79,True,79,TP
+cleaned_BenchmarkTest02333.sarif,02333,True,78,True,78,TP
+cleaned_BenchmarkTest02334.sarif,02334,True,78,True,78,TP
+cleaned_BenchmarkTest02335.sarif,02335,False,78,True,78,FP
+cleaned_BenchmarkTest02336.sarif,02336,False,78,True,78,FP
+cleaned_BenchmarkTest02337.sarif,02337,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02338.sarif,02338,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02339.sarif,02339,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02340.sarif,02340,False,78,True,78,FP
+cleaned_BenchmarkTest02341.sarif,02341,False,78,True,78,FP
+cleaned_BenchmarkTest02342.sarif,02342,True,78,True,78,TP
+cleaned_BenchmarkTest02343.sarif,02343,True,78,True,78,TP
+cleaned_BenchmarkTest02344.sarif,02344,True,78,True,78,TP
+cleaned_BenchmarkTest02345.sarif,02345,False,330,True,352,FP
+cleaned_BenchmarkTest02346.sarif,02346,False,330,True,352,FP
+cleaned_BenchmarkTest02347.sarif,02347,False,330,True,352,FP
+cleaned_BenchmarkTest02348.sarif,02348,False,330,True,352,FP
+cleaned_BenchmarkTest02349.sarif,02349,False,330,True,352,FP
+cleaned_BenchmarkTest02350.sarif,02350,False,330,True,352,FP
+cleaned_BenchmarkTest02351.sarif,02351,False,330,True,352,FP
+cleaned_BenchmarkTest02352.sarif,02352,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02353.sarif,02353,False,89,True,89,FP
+cleaned_BenchmarkTest02354.sarif,02354,True,89,True,89,TP
+cleaned_BenchmarkTest02355.sarif,02355,True,89,True,89,TP
+cleaned_BenchmarkTest02356.sarif,02356,True,89,True,89,TP
+cleaned_BenchmarkTest02357.sarif,02357,True,89,True,89,TP
+cleaned_BenchmarkTest02358.sarif,02358,True,89,True,89,TP
+cleaned_BenchmarkTest02359.sarif,02359,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest02360.sarif,02360,True,89,True,"79, 89",TP
+cleaned_BenchmarkTest02361.sarif,02361,False,89,True,89,FP
+cleaned_BenchmarkTest02362.sarif,02362,True,89,True,89,TP
+cleaned_BenchmarkTest02363.sarif,02363,False,89,True,89,FP
+cleaned_BenchmarkTest02364.sarif,02364,True,89,True,89,TP
+cleaned_BenchmarkTest02365.sarif,02365,False,89,True,89,FP
+cleaned_BenchmarkTest02366.sarif,02366,False,89,True,89,FP
+cleaned_BenchmarkTest02367.sarif,02367,False,89,True,89,FP
+cleaned_BenchmarkTest02368.sarif,02368,False,89,True,89,FP
+cleaned_BenchmarkTest02369.sarif,02369,True,89,True,89,TP
+cleaned_BenchmarkTest02370.sarif,02370,False,643,True,"79, 643",FP
+cleaned_BenchmarkTest02371.sarif,02371,False,327,False,,TN
+cleaned_BenchmarkTest02372.sarif,02372,False,327,False,,TN
+cleaned_BenchmarkTest02373.sarif,02373,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02374.sarif,02374,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02375.sarif,02375,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02376.sarif,02376,False,90,True,90,FP
+cleaned_BenchmarkTest02377.sarif,02377,True,22,True,22,TP
+cleaned_BenchmarkTest02378.sarif,02378,True,22,True,22,TP
+cleaned_BenchmarkTest02379.sarif,02379,False,22,True,22,FP
+cleaned_BenchmarkTest02380.sarif,02380,False,22,True,22,FP
+cleaned_BenchmarkTest02381.sarif,02381,False,22,True,22,FP
+cleaned_BenchmarkTest02382.sarif,02382,False,22,True,22,FP
+cleaned_BenchmarkTest02383.sarif,02383,True,22,True,22,TP
+cleaned_BenchmarkTest02384.sarif,02384,False,90,True,90,FP
+cleaned_BenchmarkTest02385.sarif,02385,True,328,True,328,TP
+cleaned_BenchmarkTest02386.sarif,02386,True,328,True,328,TP
+cleaned_BenchmarkTest02387.sarif,02387,True,328,True,328,TP
+cleaned_BenchmarkTest02388.sarif,02388,True,328,True,328,TP
+cleaned_BenchmarkTest02389.sarif,02389,False,328,False,,TN
+cleaned_BenchmarkTest02390.sarif,02390,False,328,False,,TN
+cleaned_BenchmarkTest02391.sarif,02391,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02392.sarif,02392,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02393.sarif,02393,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02394.sarif,02394,False,79,False,,TN
+cleaned_BenchmarkTest02395.sarif,02395,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02396.sarif,02396,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02397.sarif,02397,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02398.sarif,02398,False,79,False,,TN
+cleaned_BenchmarkTest02399.sarif,02399,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02400.sarif,02400,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02401.sarif,02401,False,79,False,,TN
+cleaned_BenchmarkTest02402.sarif,02402,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02403.sarif,02403,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02404.sarif,02404,False,79,False,,TN
+cleaned_BenchmarkTest02405.sarif,02405,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02406.sarif,02406,False,79,False,,TN
+cleaned_BenchmarkTest02407.sarif,02407,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02408.sarif,02408,False,79,False,,TN
+cleaned_BenchmarkTest02409.sarif,02409,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02410.sarif,02410,True,79,False,,FN_Missed
+cleaned_BenchmarkTest02411.sarif,02411,True,78,False,,FN_Missed
+cleaned_BenchmarkTest02412.sarif,02412,True,78,False,,FN_Missed
+cleaned_BenchmarkTest02413.sarif,02413,False,78,False,,TN
+cleaned_BenchmarkTest02414.sarif,02414,True,78,True,78,TP
+cleaned_BenchmarkTest02415.sarif,02415,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02416.sarif,02416,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02417.sarif,02417,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02418.sarif,02418,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02419.sarif,02419,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02420.sarif,02420,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02421.sarif,02421,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02422.sarif,02422,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02423.sarif,02423,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02424.sarif,02424,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02425.sarif,02425,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02426.sarif,02426,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02427.sarif,02427,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02428.sarif,02428,False,78,True,78,FP
+cleaned_BenchmarkTest02429.sarif,02429,True,78,True,78,TP
+cleaned_BenchmarkTest02430.sarif,02430,True,78,True,78,TP
+cleaned_BenchmarkTest02431.sarif,02431,True,78,True,78,TP
+cleaned_BenchmarkTest02432.sarif,02432,True,78,True,78,TP
+cleaned_BenchmarkTest02433.sarif,02433,True,78,True,78,TP
+cleaned_BenchmarkTest02434.sarif,02434,False,330,True,352,FP
+cleaned_BenchmarkTest02435.sarif,02435,False,330,True,352,FP
+cleaned_BenchmarkTest02436.sarif,02436,False,330,True,352,FP
+cleaned_BenchmarkTest02437.sarif,02437,False,330,True,352,FP
+cleaned_BenchmarkTest02438.sarif,02438,False,330,True,352,FP
+cleaned_BenchmarkTest02439.sarif,02439,False,330,True,352,FP
+cleaned_BenchmarkTest02440.sarif,02440,False,330,True,352,FP
+cleaned_BenchmarkTest02441.sarif,02441,False,330,True,352,FP
+cleaned_BenchmarkTest02442.sarif,02442,False,330,True,352,FP
+cleaned_BenchmarkTest02443.sarif,02443,False,330,True,352,FP
+cleaned_BenchmarkTest02444.sarif,02444,False,330,True,352,FP
+cleaned_BenchmarkTest02445.sarif,02445,False,330,True,352,FP
+cleaned_BenchmarkTest02446.sarif,02446,True,501,False,,FN_Missed
+cleaned_BenchmarkTest02447.sarif,02447,False,501,False,,TN
+cleaned_BenchmarkTest02448.sarif,02448,True,501,False,,FN_Missed
+cleaned_BenchmarkTest02449.sarif,02449,True,89,False,,FN_Missed
+cleaned_BenchmarkTest02450.sarif,02450,False,89,False,,TN
+cleaned_BenchmarkTest02451.sarif,02451,True,89,False,,FN_Missed
+cleaned_BenchmarkTest02452.sarif,02452,False,89,False,,TN
+cleaned_BenchmarkTest02453.sarif,02453,True,89,False,,FN_Missed
+cleaned_BenchmarkTest02454.sarif,02454,True,89,False,,FN_Missed
+cleaned_BenchmarkTest02455.sarif,02455,True,89,False,,FN_Missed
+cleaned_BenchmarkTest02456.sarif,02456,False,89,False,,TN
+cleaned_BenchmarkTest02457.sarif,02457,False,643,False,,TN
+cleaned_BenchmarkTest02458.sarif,02458,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02459.sarif,02459,False,327,False,,TN
+cleaned_BenchmarkTest02460.sarif,02460,False,327,False,,TN
+cleaned_BenchmarkTest02461.sarif,02461,False,327,False,,TN
+cleaned_BenchmarkTest02462.sarif,02462,False,22,True,22,FP
+cleaned_BenchmarkTest02463.sarif,02463,True,22,True,22,TP
+cleaned_BenchmarkTest02464.sarif,02464,False,22,True,22,FP
+cleaned_BenchmarkTest02465.sarif,02465,True,22,True,22,TP
+cleaned_BenchmarkTest02466.sarif,02466,True,22,True,22,TP
+cleaned_BenchmarkTest02467.sarif,02467,False,22,True,22,FP
+cleaned_BenchmarkTest02468.sarif,02468,False,22,True,22,FP
+cleaned_BenchmarkTest02469.sarif,02469,True,22,True,22,TP
+cleaned_BenchmarkTest02470.sarif,02470,False,22,True,22,FP
+cleaned_BenchmarkTest02471.sarif,02471,False,22,False,,TN
+cleaned_BenchmarkTest02472.sarif,02472,True,90,True,"79, 90",TP
+cleaned_BenchmarkTest02473.sarif,02473,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02474.sarif,02474,True,328,True,328,TP
+cleaned_BenchmarkTest02475.sarif,02475,True,328,True,328,TP
+cleaned_BenchmarkTest02476.sarif,02476,True,328,True,328,TP
+cleaned_BenchmarkTest02477.sarif,02477,False,328,False,,TN
+cleaned_BenchmarkTest02478.sarif,02478,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02479.sarif,02479,False,328,False,,TN
+cleaned_BenchmarkTest02480.sarif,02480,True,79,True,79,TP
+cleaned_BenchmarkTest02481.sarif,02481,False,79,True,79,FP
+cleaned_BenchmarkTest02482.sarif,02482,False,79,True,79,FP
+cleaned_BenchmarkTest02483.sarif,02483,True,79,True,79,TP
+cleaned_BenchmarkTest02484.sarif,02484,False,79,True,79,FP
+cleaned_BenchmarkTest02485.sarif,02485,False,79,True,79,FP
+cleaned_BenchmarkTest02486.sarif,02486,True,79,True,79,TP
+cleaned_BenchmarkTest02487.sarif,02487,True,79,True,79,TP
+cleaned_BenchmarkTest02488.sarif,02488,False,79,True,79,FP
+cleaned_BenchmarkTest02489.sarif,02489,True,79,True,79,TP
+cleaned_BenchmarkTest02490.sarif,02490,False,79,True,79,FP
+cleaned_BenchmarkTest02491.sarif,02491,False,79,True,79,FP
+cleaned_BenchmarkTest02492.sarif,02492,False,79,True,79,FP
+cleaned_BenchmarkTest02493.sarif,02493,True,79,True,79,TP
+cleaned_BenchmarkTest02494.sarif,02494,True,79,True,79,TP
+cleaned_BenchmarkTest02495.sarif,02495,False,79,True,79,FP
+cleaned_BenchmarkTest02496.sarif,02496,True,78,True,78,TP
+cleaned_BenchmarkTest02497.sarif,02497,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02498.sarif,02498,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02499.sarif,02499,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02500.sarif,02500,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02501.sarif,02501,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02502.sarif,02502,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02503.sarif,02503,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02504.sarif,02504,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02505.sarif,02505,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02506.sarif,02506,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02507.sarif,02507,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02508.sarif,02508,False,614,True,352,FP
+cleaned_BenchmarkTest02509.sarif,02509,False,79,True,79,FP
+cleaned_BenchmarkTest02510.sarif,02510,False,78,True,78,FP
+cleaned_BenchmarkTest02511.sarif,02511,True,78,True,78,TP
+cleaned_BenchmarkTest02512.sarif,02512,True,78,True,78,TP
+cleaned_BenchmarkTest02513.sarif,02513,False,78,True,78,FP
+cleaned_BenchmarkTest02514.sarif,02514,True,78,True,78,TP
+cleaned_BenchmarkTest02515.sarif,02515,True,78,True,78,TP
+cleaned_BenchmarkTest02516.sarif,02516,True,78,True,78,TP
+cleaned_BenchmarkTest02517.sarif,02517,True,78,True,78,TP
+cleaned_BenchmarkTest02518.sarif,02518,False,78,True,78,FP
+cleaned_BenchmarkTest02519.sarif,02519,False,330,True,352,FP
+cleaned_BenchmarkTest02520.sarif,02520,False,330,True,352,FP
+cleaned_BenchmarkTest02521.sarif,02521,False,330,True,352,FP
+cleaned_BenchmarkTest02522.sarif,02522,False,330,True,352,FP
+cleaned_BenchmarkTest02523.sarif,02523,False,501,True,"79, 501",FP
+cleaned_BenchmarkTest02524.sarif,02524,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02525.sarif,02525,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02526.sarif,02526,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02527.sarif,02527,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02528.sarif,02528,True,89,True,89,TP
+cleaned_BenchmarkTest02529.sarif,02529,False,89,True,89,FP
+cleaned_BenchmarkTest02530.sarif,02530,True,89,True,89,TP
+cleaned_BenchmarkTest02531.sarif,02531,True,89,True,89,TP
+cleaned_BenchmarkTest02532.sarif,02532,True,89,True,89,TP
+cleaned_BenchmarkTest02533.sarif,02533,True,89,True,89,TP
+cleaned_BenchmarkTest02534.sarif,02534,True,89,True,89,TP
+cleaned_BenchmarkTest02535.sarif,02535,True,89,True,89,TP
+cleaned_BenchmarkTest02536.sarif,02536,False,89,True,89,FP
+cleaned_BenchmarkTest02537.sarif,02537,True,89,True,89,TP
+cleaned_BenchmarkTest02538.sarif,02538,False,89,True,89,FP
+cleaned_BenchmarkTest02539.sarif,02539,False,89,True,89,FP
+cleaned_BenchmarkTest02540.sarif,02540,False,89,True,89,FP
+cleaned_BenchmarkTest02541.sarif,02541,False,89,True,89,FP
+cleaned_BenchmarkTest02542.sarif,02542,True,89,True,89,TP
+cleaned_BenchmarkTest02543.sarif,02543,True,89,True,89,TP
+cleaned_BenchmarkTest02544.sarif,02544,False,89,True,89,FP
+cleaned_BenchmarkTest02545.sarif,02545,True,89,True,89,TP
+cleaned_BenchmarkTest02546.sarif,02546,False,89,True,89,FP
+cleaned_BenchmarkTest02547.sarif,02547,False,327,False,,TN
+cleaned_BenchmarkTest02548.sarif,02548,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02549.sarif,02549,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02550.sarif,02550,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02551.sarif,02551,False,327,False,,TN
+cleaned_BenchmarkTest02552.sarif,02552,False,327,False,,TN
+cleaned_BenchmarkTest02553.sarif,02553,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02554.sarif,02554,False,22,True,22,FP
+cleaned_BenchmarkTest02555.sarif,02555,True,22,True,22,TP
+cleaned_BenchmarkTest02556.sarif,02556,True,22,True,22,TP
+cleaned_BenchmarkTest02557.sarif,02557,False,22,True,22,FP
+cleaned_BenchmarkTest02558.sarif,02558,False,22,True,22,FP
+cleaned_BenchmarkTest02559.sarif,02559,True,22,True,22,TP
+cleaned_BenchmarkTest02560.sarif,02560,True,22,True,22,TP
+cleaned_BenchmarkTest02561.sarif,02561,True,22,True,22,TP
+cleaned_BenchmarkTest02562.sarif,02562,True,22,True,22,TP
+cleaned_BenchmarkTest02563.sarif,02563,False,22,True,22,FP
+cleaned_BenchmarkTest02564.sarif,02564,True,22,True,22,TP
+cleaned_BenchmarkTest02565.sarif,02565,True,22,True,22,TP
+cleaned_BenchmarkTest02566.sarif,02566,False,22,True,22,FP
+cleaned_BenchmarkTest02567.sarif,02567,True,22,True,22,TP
+cleaned_BenchmarkTest02568.sarif,02568,False,22,True,22,FP
+cleaned_BenchmarkTest02569.sarif,02569,True,22,True,22,TP
+cleaned_BenchmarkTest02570.sarif,02570,False,22,False,,TN
+cleaned_BenchmarkTest02571.sarif,02571,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02572.sarif,02572,False,90,True,"79, 90",FP
+cleaned_BenchmarkTest02573.sarif,02573,True,328,True,328,TP
+cleaned_BenchmarkTest02574.sarif,02574,True,328,True,328,TP
+cleaned_BenchmarkTest02575.sarif,02575,True,328,True,328,TP
+cleaned_BenchmarkTest02576.sarif,02576,False,328,False,,TN
+cleaned_BenchmarkTest02577.sarif,02577,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02578.sarif,02578,True,79,True,79,TP
+cleaned_BenchmarkTest02579.sarif,02579,True,79,True,79,TP
+cleaned_BenchmarkTest02580.sarif,02580,True,79,True,79,TP
+cleaned_BenchmarkTest02581.sarif,02581,False,79,True,79,FP
+cleaned_BenchmarkTest02582.sarif,02582,True,79,True,79,TP
+cleaned_BenchmarkTest02583.sarif,02583,True,79,True,79,TP
+cleaned_BenchmarkTest02584.sarif,02584,True,79,True,79,TP
+cleaned_BenchmarkTest02585.sarif,02585,True,79,True,79,TP
+cleaned_BenchmarkTest02586.sarif,02586,True,79,True,79,TP
+cleaned_BenchmarkTest02587.sarif,02587,True,79,True,79,TP
+cleaned_BenchmarkTest02588.sarif,02588,True,79,True,79,TP
+cleaned_BenchmarkTest02589.sarif,02589,False,79,True,79,FP
+cleaned_BenchmarkTest02590.sarif,02590,False,79,True,79,FP
+cleaned_BenchmarkTest02591.sarif,02591,True,79,True,79,TP
+cleaned_BenchmarkTest02592.sarif,02592,True,79,True,79,TP
+cleaned_BenchmarkTest02593.sarif,02593,False,79,True,79,FP
+cleaned_BenchmarkTest02594.sarif,02594,False,79,True,79,FP
+cleaned_BenchmarkTest02595.sarif,02595,True,79,True,79,TP
+cleaned_BenchmarkTest02596.sarif,02596,False,79,True,79,FP
+cleaned_BenchmarkTest02597.sarif,02597,True,79,True,79,TP
+cleaned_BenchmarkTest02598.sarif,02598,True,79,True,79,TP
+cleaned_BenchmarkTest02599.sarif,02599,False,79,True,79,FP
+cleaned_BenchmarkTest02600.sarif,02600,True,79,True,79,TP
+cleaned_BenchmarkTest02601.sarif,02601,False,79,True,79,FP
+cleaned_BenchmarkTest02602.sarif,02602,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02603.sarif,02603,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02604.sarif,02604,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02605.sarif,02605,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02606.sarif,02606,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02607.sarif,02607,False,614,True,352,FP
+cleaned_BenchmarkTest02608.sarif,02608,True,79,True,79,TP
+cleaned_BenchmarkTest02609.sarif,02609,False,79,True,79,FP
+cleaned_BenchmarkTest02610.sarif,02610,False,78,True,78,FP
+cleaned_BenchmarkTest02611.sarif,02611,True,78,True,78,TP
+cleaned_BenchmarkTest02612.sarif,02612,True,78,True,78,TP
+cleaned_BenchmarkTest02613.sarif,02613,True,78,True,78,TP
+cleaned_BenchmarkTest02614.sarif,02614,False,330,True,352,FP
+cleaned_BenchmarkTest02615.sarif,02615,False,330,True,352,FP
+cleaned_BenchmarkTest02616.sarif,02616,False,330,True,352,FP
+cleaned_BenchmarkTest02617.sarif,02617,False,330,True,352,FP
+cleaned_BenchmarkTest02618.sarif,02618,False,330,True,352,FP
+cleaned_BenchmarkTest02619.sarif,02619,False,330,True,352,FP
+cleaned_BenchmarkTest02620.sarif,02620,False,330,True,352,FP
+cleaned_BenchmarkTest02621.sarif,02621,False,330,True,352,FP
+cleaned_BenchmarkTest02622.sarif,02622,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02623.sarif,02623,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02624.sarif,02624,True,501,True,"79, 501",TP
+cleaned_BenchmarkTest02625.sarif,02625,True,89,True,89,TP
+cleaned_BenchmarkTest02626.sarif,02626,False,89,True,89,FP
+cleaned_BenchmarkTest02627.sarif,02627,True,89,True,89,TP
+cleaned_BenchmarkTest02628.sarif,02628,True,89,True,89,TP
+cleaned_BenchmarkTest02629.sarif,02629,False,89,True,89,FP
+cleaned_BenchmarkTest02630.sarif,02630,True,89,True,89,TP
+cleaned_BenchmarkTest02631.sarif,02631,False,89,True,89,FP
+cleaned_BenchmarkTest02632.sarif,02632,True,89,True,89,TP
+cleaned_BenchmarkTest02633.sarif,02633,False,89,True,89,FP
+cleaned_BenchmarkTest02634.sarif,02634,False,89,True,89,FP
+cleaned_BenchmarkTest02635.sarif,02635,True,89,True,89,TP
+cleaned_BenchmarkTest02636.sarif,02636,False,89,True,89,FP
+cleaned_BenchmarkTest02637.sarif,02637,False,89,True,89,FP
+cleaned_BenchmarkTest02638.sarif,02638,True,89,True,89,TP
+cleaned_BenchmarkTest02639.sarif,02639,False,89,True,89,FP
+cleaned_BenchmarkTest02640.sarif,02640,False,89,True,89,FP
+cleaned_BenchmarkTest02641.sarif,02641,True,89,True,89,TP
+cleaned_BenchmarkTest02642.sarif,02642,True,89,True,89,TP
+cleaned_BenchmarkTest02643.sarif,02643,True,89,True,89,TP
+cleaned_BenchmarkTest02644.sarif,02644,True,89,True,89,TP
+cleaned_BenchmarkTest02645.sarif,02645,True,89,True,89,TP
+cleaned_BenchmarkTest02646.sarif,02646,True,89,True,89,TP
+cleaned_BenchmarkTest02647.sarif,02647,True,89,True,89,TP
+cleaned_BenchmarkTest02648.sarif,02648,False,89,True,89,FP
+cleaned_BenchmarkTest02649.sarif,02649,True,89,True,89,TP
+cleaned_BenchmarkTest02650.sarif,02650,True,89,True,89,TP
+cleaned_BenchmarkTest02651.sarif,02651,True,89,True,89,TP
+cleaned_BenchmarkTest02652.sarif,02652,False,89,True,89,FP
+cleaned_BenchmarkTest02653.sarif,02653,True,89,True,89,TP
+cleaned_BenchmarkTest02654.sarif,02654,True,89,True,89,TP
+cleaned_BenchmarkTest02655.sarif,02655,True,89,True,89,TP
+cleaned_BenchmarkTest02656.sarif,02656,True,89,True,89,TP
+cleaned_BenchmarkTest02657.sarif,02657,False,89,True,89,FP
+cleaned_BenchmarkTest02658.sarif,02658,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02659.sarif,02659,False,327,False,,TN
+cleaned_BenchmarkTest02660.sarif,02660,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02661.sarif,02661,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02662.sarif,02662,False,327,False,,TN
+cleaned_BenchmarkTest02663.sarif,02663,True,327,True,326,FN_WrongCWE
+cleaned_BenchmarkTest02664.sarif,02664,False,22,True,22,FP
+cleaned_BenchmarkTest02665.sarif,02665,False,22,True,22,FP
+cleaned_BenchmarkTest02666.sarif,02666,False,22,True,22,FP
+cleaned_BenchmarkTest02667.sarif,02667,False,22,True,22,FP
+cleaned_BenchmarkTest02668.sarif,02668,False,22,True,22,FP
+cleaned_BenchmarkTest02669.sarif,02669,False,22,True,22,FP
+cleaned_BenchmarkTest02670.sarif,02670,True,328,True,328,TP
+cleaned_BenchmarkTest02671.sarif,02671,True,328,True,328,TP
+cleaned_BenchmarkTest02672.sarif,02672,False,328,False,,TN
+cleaned_BenchmarkTest02673.sarif,02673,False,328,False,,TN
+cleaned_BenchmarkTest02674.sarif,02674,True,328,True,328,TP
+cleaned_BenchmarkTest02675.sarif,02675,True,328,True,328,TP
+cleaned_BenchmarkTest02676.sarif,02676,False,328,False,,TN
+cleaned_BenchmarkTest02677.sarif,02677,True,328,False,,FN_Missed
+cleaned_BenchmarkTest02678.sarif,02678,False,328,False,,TN
+cleaned_BenchmarkTest02679.sarif,02679,False,79,False,,TN
+cleaned_BenchmarkTest02680.sarif,02680,False,79,False,,TN
+cleaned_BenchmarkTest02681.sarif,02681,False,79,False,,TN
+cleaned_BenchmarkTest02682.sarif,02682,False,79,False,,TN
+cleaned_BenchmarkTest02683.sarif,02683,False,79,False,,TN
+cleaned_BenchmarkTest02684.sarif,02684,False,79,False,,TN
+cleaned_BenchmarkTest02685.sarif,02685,False,79,False,,TN
+cleaned_BenchmarkTest02686.sarif,02686,False,79,False,,TN
+cleaned_BenchmarkTest02687.sarif,02687,False,79,False,,TN
+cleaned_BenchmarkTest02688.sarif,02688,False,79,False,,TN
+cleaned_BenchmarkTest02689.sarif,02689,False,79,False,,TN
+cleaned_BenchmarkTest02690.sarif,02690,False,79,False,,TN
+cleaned_BenchmarkTest02691.sarif,02691,False,79,False,,TN
+cleaned_BenchmarkTest02692.sarif,02692,False,79,False,,TN
+cleaned_BenchmarkTest02693.sarif,02693,False,79,False,,TN
+cleaned_BenchmarkTest02694.sarif,02694,False,79,False,,TN
+cleaned_BenchmarkTest02695.sarif,02695,False,79,False,,TN
+cleaned_BenchmarkTest02696.sarif,02696,False,79,False,,TN
+cleaned_BenchmarkTest02697.sarif,02697,False,78,True,78,FP
+cleaned_BenchmarkTest02698.sarif,02698,False,78,True,78,FP
+cleaned_BenchmarkTest02699.sarif,02699,False,78,True,78,FP
+cleaned_BenchmarkTest02700.sarif,02700,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02701.sarif,02701,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02702.sarif,02702,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02703.sarif,02703,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02704.sarif,02704,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02705.sarif,02705,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02706.sarif,02706,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02707.sarif,02707,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02708.sarif,02708,True,330,True,"330, 352",TP
+cleaned_BenchmarkTest02709.sarif,02709,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02710.sarif,02710,True,614,True,"352, 614",TP
+cleaned_BenchmarkTest02711.sarif,02711,False,614,True,352,FP
+cleaned_BenchmarkTest02712.sarif,02712,False,79,False,,TN
+cleaned_BenchmarkTest02713.sarif,02713,False,78,True,78,FP
+cleaned_BenchmarkTest02714.sarif,02714,False,78,True,78,FP
+cleaned_BenchmarkTest02715.sarif,02715,False,330,True,352,FP
+cleaned_BenchmarkTest02716.sarif,02716,False,330,True,352,FP
+cleaned_BenchmarkTest02717.sarif,02717,False,330,True,352,FP
+cleaned_BenchmarkTest02718.sarif,02718,False,330,True,352,FP
+cleaned_BenchmarkTest02719.sarif,02719,False,330,True,352,FP
+cleaned_BenchmarkTest02720.sarif,02720,False,330,True,352,FP
+cleaned_BenchmarkTest02721.sarif,02721,False,330,True,352,FP
+cleaned_BenchmarkTest02722.sarif,02722,False,501,False,,TN
+cleaned_BenchmarkTest02723.sarif,02723,False,501,False,,TN
+cleaned_BenchmarkTest02724.sarif,02724,False,501,False,,TN
+cleaned_BenchmarkTest02725.sarif,02725,False,501,False,,TN
+cleaned_BenchmarkTest02726.sarif,02726,False,501,False,,TN
+cleaned_BenchmarkTest02727.sarif,02727,False,89,False,,TN
+cleaned_BenchmarkTest02728.sarif,02728,False,89,False,,TN
+cleaned_BenchmarkTest02729.sarif,02729,False,89,False,,TN
+cleaned_BenchmarkTest02730.sarif,02730,False,89,False,,TN
+cleaned_BenchmarkTest02731.sarif,02731,False,89,False,,TN
+cleaned_BenchmarkTest02732.sarif,02732,False,89,False,,TN
+cleaned_BenchmarkTest02733.sarif,02733,False,89,False,,TN
+cleaned_BenchmarkTest02734.sarif,02734,False,89,False,,TN
+cleaned_BenchmarkTest02735.sarif,02735,False,89,False,,TN
+cleaned_BenchmarkTest02736.sarif,02736,False,89,False,,TN
+cleaned_BenchmarkTest02737.sarif,02737,False,89,False,,TN
+cleaned_BenchmarkTest02738.sarif,02738,False,89,False,,TN
+cleaned_BenchmarkTest02739.sarif,02739,False,89,False,,TN
+cleaned_BenchmarkTest02740.sarif,02740,False,89,False,,TN
